@@ -1,9 +1,7 @@
-<br />
-#### **GET users/[user_id]/following**<br />
-Authentication: **API user**  <br />
-Authorization: **users**  <br /><br />
 
-No request parameters.<br /><br />
+#### **GET users/[user_id]/following**
+
+No request parameters.
 
 Success response:
 ```javascript
@@ -33,13 +31,11 @@ Success response:
    ]
 }
 ```
-<br /><br />
 
-#### GET **users/[user_id]/followed-by**<br />
-Authentication: **API user**<br />
-Authorization: **users**<br /><br />
 
-No request parameters.<br /><br />
+#### GET **users/[user_id]/followed-by**
+
+No request parameters.
 
 Success response:
 ```javascript
@@ -69,13 +65,11 @@ Success response:
    ]
 }
 ```
-<br /><br />
 
-#### **POST users/[user_id]/follow**<br />
-Authentication: **API user**<br />
-Authorization: **users**<br /><br />
 
-No request params (except user_id in URL).<br /><br />
+#### **POST users/[user_id]/follow**
+
+No request params (except user_id in URL).
 
 Success response:
 ```javascript
@@ -84,13 +78,11 @@ Success response:
    "data":[]
 }
 ```
-<br /><br />
 
-#### **POST users/[user_id]/unfollow**<br />
-Authentication: **API user**<br />
-Authorization: **users**<br /><br />
 
-No request params (except user_id in URL).<br /><br />
+#### **POST users/[user_id]/unfollow**
+
+No request params (except user_id in URL).
 
 Success response:
 ```javascript
@@ -99,16 +91,14 @@ Success response:
    "data":[]
 }
 ```
-<br /><br />
 
-#### **POST users/search**<br />
-Authentication: **API user**<br />
-Authorization: **users**<br /><br />
+
+#### **POST users/search**
 
 Request Parameter | Mandatory | Default value | Comments
 --- |:---:| --- | ---
 term | ✓ | |
-<br />
+
 Success response:
 ```javascript
 {
@@ -131,13 +121,11 @@ Success response:
    ]
 }
 ```
-<br /><br />
 
-#### **POST users/self/follow-suggestions**<br />
-Authentication: **API user**<br />
-Authorization: **users**<br /><br />
 
-No request parameters.<br /><br />
+#### **POST users/self/follow-suggestions**
+
+No request parameters.
 
 Success response:
 ```javascript
@@ -164,18 +152,16 @@ Success response:
    ]
 }
 ```
-<br /><br />
 
 
-#### **POST users/invite**<br />
-Authentication: **API user**<br />
-Authorization: **users**<br /><br />
+
+#### **POST users/invite**
 
 Request Parameter | Mandatory | Default value | Comments
 --- |:---:| --- | ---
 name | ✓ | |
 email | ✓ | |
-<br />
+
 Success response:
 ```javascript
 {

@@ -1,8 +1,6 @@
-#### **GET users/self**<br />
-Authentication: **API user**<br />
-Authorization: **users**<br /><br />
+#### **GET users/self**
 
-No request parameters.<br /><br />
+No request parameters.
 
 Success response:
 ```javascript
@@ -64,11 +62,9 @@ Success response:
    }
 }
 ```
-<br /><br />
 
-#### **POST users/self**<br />
-Authentication: **API user**<br />
-Authorization: **users**<br /><br />
+
+#### **POST users/self**
 
 Request Parameter | Mandatory | Default value | Comments
 ---|:---:|---|---
@@ -85,7 +81,7 @@ units | | | ‘metric’ or ‘imperial’
 equipment | | |
 bio | | |
 profile_picture | | | File with new user image
-<br /><br />
+
 Success response:
 ```javascript
 {
@@ -93,13 +89,11 @@ Success response:
    "data":[]
 }
 ```
-<br /><br />
 
-#### **GET users/self/medals**<br />
-Authentication: **API user**<br />
-Authorization: **users**<br /><br />
 
-No request parameters.<br /><br />
+#### **GET users/self/medals**
+
+No request parameters.
 
 Success response:
 ```javascript
@@ -127,12 +121,10 @@ Success response:
 ```
 
 
-#### **GET users/[user_id]**<br />
-Authentication: **API user**<br />
-Authorization: **users**<br /><br />
+#### **GET users/[user_id]**
 
 No request parameters (except user_id in URL).
-<br />
+
 Success response:
 ```javascript
 {
@@ -193,14 +185,12 @@ Success response:
    }
 }
 ```
-<br /><br />
 
-#### **GET users/[user_id]/medals**<br />
-Authentication: **API user**<br />
-Authorization: **users**<br /><br />
+
+#### **GET users/[user_id]/medals**
 
 No request parameters (except user_id in URL).
-<br />
+
 Success response:
 ```javascript
 {

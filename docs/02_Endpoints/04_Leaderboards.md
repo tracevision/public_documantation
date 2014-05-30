@@ -1,7 +1,5 @@
-<br />
-#### **GET users/[user_id]/leaderboards/total**<br />
-Authorization: **users**  <br />
-Authentication: **API user**  <br /><br />
+
+#### **GET users/[user_id]/leaderboards/total**
 
 Request Parameter | Mandatory | Default value | Comments
 --- |:---:| --- | ---
@@ -12,7 +10,7 @@ gender | | |
 age | | |
 season | | |
 following | | |
-<br />
+
 
 Success response:
 ```javascript
@@ -59,18 +57,16 @@ Success response:
    }
 }
 ```
-<br /><br />
+
 
 #### **GET users/[user_id]/leaderboards/daily**
-Authentication: **API user**<br />
-Authorization: **users**<br /><br />
 
 Request Parameter | Mandatory | Default value | Comments
 --- |:---:| --- | ---
 stat | ✓ | |
 date | ✓ | | yyyy-mm-dd
 resort_id | |
-<br />
+
 
 Success response:
 ```javascript

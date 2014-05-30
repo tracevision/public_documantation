@@ -1,7 +1,5 @@
-<br />
-#### **GET users/self/events**<br />
-Authentication: **API user**<br />
-Authorization: **users**<br /><br />
+
+#### **GET users/self/events**
 
 Request Parameter | Mandatory | Default value | Comments
 --- |:---:| --- | ---
@@ -62,7 +60,7 @@ The event item contains general information and information specific to event. G
             "count":1
          }
 ```
-context contains a visit’s medals and user’s comment for the visit.<br /><br />
+context contains a visit’s medals and user’s comment for the visit.
 
 Properties for a new follower:
 ```javascript
@@ -73,7 +71,7 @@ Properties for a new follower:
          }
 ```
 
-<br /><br />
+
 Properties for new visit:
 ```javascript
          "visit":{
@@ -82,7 +80,7 @@ Properties for new visit:
             "image":"...inereplay.com\/stats\/get_stats_image?iId=45"
          }
 ```
-<br /><br />
+
 
 Properties for new video:
 ```javascript
@@ -92,14 +90,12 @@ Properties for new video:
             "link":"http:\/\/www.youtube.com\/watch?v=_ShlXyCT1A0"
          }
 ```
-<br /><br />
 
 
-#### **POST events/[event_id]/like**<br />
-Authentication: **API user**<br />
-Authorization: **users**<br /><br />
 
-No request parameters (except event_id in the URL).<br /><br />
+#### **POST events/[event_id]/like**
+
+No request parameters (except event_id in the URL).
 
 Success response:
 ```javascript
@@ -112,6 +108,6 @@ Success response:
 }
 ```
 Note: show_facebook_like may be omitted if a task for a Facebook like was not created.
-<br /><br />
+
 
 

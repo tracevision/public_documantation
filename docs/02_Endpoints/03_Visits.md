@@ -1,7 +1,5 @@
-<br /><br />
-#### **GET users/[user_id]/visits**<br />
-Authentication: **API user** <br />
-Authorization: **users** <br /><br />
+
+#### **GET users/[user_id]/visits**
 
 Request Parameter | Mandatory | Default value | Comments
 --- |:---:| --- | ---
@@ -101,7 +99,7 @@ Success AlpineReplay response:
    ]
 }
 ```
-<br /><br />
+
 Success SurfReplay response:
 ```javascript
 {
@@ -174,17 +172,15 @@ Success SurfReplay response:
 }
 ```
 
-<br /><br />
-#### **POST users/self/visit-overlay**<br />
-Authentication: **API user**<br />
-Authorization: **users**<br />
-Description: With this call you can upload a track file with data in it (our usual track files either from Trace or from the phone app) and we'll create our video overlay in 1080p with stats like speed, altitude drop, jump information, etc. The overlay has a transparent alpha channel, so you can then use this file in your favorite video editor to create the stats overlay that you want. The link for the resultant video file will be sent to the user's email in the database.<br /><br />
+
+#### **POST users/self/visit-overlay**
+Description: With this call you can upload a track file with data in it (our usual track files either from Trace or from the phone app) and we'll create our video overlay in 1080p with stats like speed, altitude drop, jump information, etc. The overlay has a transparent alpha channel, so you can then use this file in your favorite video editor to create the stats overlay that you want. The link for the resultant video file will be sent to the user's email in the database.
 
 Request Parameter | Mandatory | Default value | Comments
 --- |:---:| --- | ---
 data | ✓ | | Track file
 client[version] | | |
-<br />
+
 Success response:
 ```javascript
 {
@@ -211,12 +207,10 @@ Success response:
 }
 ```
 
-<br /><br />
 
 
-#### **POST visits/[visit_id]/comment**<br />
-Authentication: **API user**<br />
-Authorization: **users**<br /><br />
+
+#### **POST visits/[visit_id]/comment**
 
 Request Parameter | Mandatory | Default value | Comments
 --- |:---:| --- | ---
@@ -225,7 +219,7 @@ twitter | | | Create post in Twitter
 photo | | | Photo file
 comment | | |
 
-<br />
+
 Success response:
 ```javascript
 {
@@ -233,16 +227,14 @@ Success response:
    "data":[]
 }
 ```
-<br /><br />
 
-#### **POST visits/[visit_id]/photo**<br />
-Authentication: **API user**<br />
-Authorization: **users**<br /><br />
+
+#### **POST visits/[visit_id]/photo**
 
 Request Parameter | Mandatory | Default value | Comments
 --- |:---:| --- | ---
 photo | ✓ | | Photo file
-<br />
+
 Success response:
 ```javascript
 {
@@ -250,11 +242,9 @@ Success response:
    "data":[]
 }
 ```
-<br /><br />
 
-#### **POST visits/[visit_id]/share**<br />
-Authentication: **API user**<br />
-Authorization: **users**<br /><br />
+
+#### **POST visits/[visit_id]/share**
 
 Request Parameter | Mandatory | Default value | Comments
 --- |:---:| --- | ---
@@ -263,7 +253,7 @@ comment | | |
 photo | | | Photo file
 facebook | | | Create post on Facebook
 twitter | | | Create post in Twitter
-<br />
+
 Success response:
 ```javascript
 {
@@ -271,5 +261,5 @@ Success response:
    "data":[]
 }
 ```
-<br /><br />
+
 

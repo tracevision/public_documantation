@@ -1,12 +1,10 @@
-#### **POST resorts/search**<br />
-Authentication: **API user**<br />
-Authorization: **users**<br /><br />
+#### **POST resorts/search**
 
 Request Parameter| Mandatory | Default value | Comments
 --- |:---:| --- | ---
 term | ✓ | | First letter of resorts to search. For example, request for “term”=”sugar” will return resorts Sugarloaf, Sugarbush and Sugar Bowl.
 limit | | 20 | must be passed as an int and not string
-<br />
+
 
 Success response:
 ```javascript
@@ -37,18 +35,16 @@ Success response:
    ]
 }
 ```
-<br /><br />
 
-#### **POST resorts/search/by-location**<br /><br />
-Authentication: **API user**<br />
-Authorization: **users**<br /><br />
+
+#### **POST resorts/search/by-location**
 
 Request Parameter | Mandatory | Default value | Comments
 --- |:---:| --- | ---
 longitude | ✓ | |
 latitude | ✓ | |
 limit | | 10 |
-<br />
+
 
 Success response (array of resorts sorted by distance to given point and popularity, highest ranked goes first):
 ```javascript
@@ -65,13 +61,11 @@ Success response (array of resorts sorted by distance to given point and popular
    ]
 }
 ```
-<br /><br />
 
-#### **GET resorts/[resort_name]/explore**<br />
-Authentication: **API user**<br />
-Authorization: **users**<br /><br />
 
-No request parameters (except resort name in URL).<br /><br />
+#### **GET resorts/[resort_name]/explore**
+
+No request parameters (except resort name in URL).
 
 Success response:
 ```javascript
