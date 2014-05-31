@@ -1,24 +1,25 @@
 ### Requests to API
 
-To make calls you need to send HTTP GET or POST request to API endpoint with required and optional parameters. This call
-also should be signed with OAuth.
+To make calls you'll need to send an HTTPS GET or POST request to an API endpoint with required and optional parameters.
+This call should also be signed with OAuth.
 
-Each sport type supported by API server has its own domain for API calls. Also API version number is included to
-address. There are two supported sports and base API URL looks like this:
+Each sport type supported by the API server has its own domain for API calls. An API version number is also included in
+the address. There are two supported sports and base API URLs:
 
 * Skiing and snowboarding: https://www.alpinereplay.com/api/v1
 * Surfing: https://surf.activereplay.com/api/v1
 
 Further in this documentation you will see a list of API methods that look like this: "GET /users/self". This means
-that you can send HTTP GET request to https://www.alpinereplay.com/api/v1/users/self or to
-https://surf.activereplay.com/api/v1/users/self. Sport related data inside response depends on URL domain.
+that you can send an HTTPS GET request to https://www.alpinereplay.com/api/v1/users/self or to
+https://surf.activereplay.com/api/v1/users/self. Sport related data inside the response depends on URL domain.
 
 ### API responses
 
-API uses JSON format in response. It always contains boolean `success` property which represents status of request.
+The Trace API uses the JSON format in responses because JSON is made from awesomesauce.
+The response will always contain boolean `success` property which represents status of request.
 
-If request was successful response will contain `success` equals to `true` and `data` property with response data. Also
-HTTP code 200 for response.
+If request was successful response will contain `success` equals to `true` and `data` property with response data.
+There will also be an HTTP code 200 for the response.<br /><br />
 
 Example of response data with array:
 ```javascript
@@ -35,6 +36,7 @@ Example of response data with array:
 }
 ```
 
+<br /><br />
 Successful response with dictionary for data:
 ```javascript
 {
@@ -46,6 +48,7 @@ Successful response with dictionary for data:
 }
 ```
 
+<br /><br />
 If request was not successful response contains `success` equals to `false` and `error` property with `id` and `message`
 properties with information about error. Also response HTTP code 4xx, 5xx.
 ```javascript
@@ -57,10 +60,11 @@ properties with information about error. Also response HTTP code 4xx, 5xx.
    }
 }
 ```
+<br /><br />
 
 ### API call example
 
-Here is an example of API request to users search method in PHP:
+Here is an example of an API request to the users search method in PHP:
 ```php
 try {
 

@@ -1,27 +1,28 @@
-All requests to the API should be signed OAuth 1.0a requests. To sign a request you need client key, client secret,
-access token and access token secret. Client key and secret you will get after API user registration. To get access
-token and secret you need to implement 3-legged OAuth authorization flow.
+All requests to the API should be signed as OAuth 1.0a requests. To sign a request you'll need a client key, a client secret,
+an access token and an access token secret. For the client key and secret please get in contact with us at
+`api@alpinereplay.com` to register. To get your access token and secret you'll need to implement the 3-legged
+OAuth authorization flow.
 
-Further we will see this process in details with code examples in PHP.
+Lets go through this process with some examples in PHP.<br /><br />
 
-## 3-legged OAuth authorization
+## 3-legged OAuth authorization<br />
 
-From client point of view this process consists of three steps:
+From the client's point of view (your app) this process consists of three steps:
 
-1. initial connection between client and API server,
-1. user redirection to API server to let user grant access to client,
-1. request access tokens when user returned to client.
+1. The initial connection between client and API server.
+1. A redirect to our servers (the API server) where the user will grant access to the client (your app).
+1. A rederect back to the client with passed access token and secret.<br /><br />
 
-### 1. Initial connection
+### 1. Initial connection<br />
 
-On this phase you send a request to `https://www.alpinereplay.com/api/oauth_init`. This request should be signed with
-your client tokens. Also you provide a return URL. On this URL user is redirected after he grants access to his account
-to your application.
+In this phase you'll send a request to `https://www.alpinereplay.com/api/oauth_init`. This request should be signed with
+your client tokens. You'll also need to give a return URL (the URL you'll want the user to return to after authorization;
+this should be a URL running on your app).
 
-Server returns request token and request token secret. These tokens are used in further process so you need to save them
-for example in session.
+The server returns with a request token and request token secret. You'll want to save the request token and the request
+token secret because you'll need them to make other calls on this API.
 
-Here is a PHP example code for this phase:
+Let's take a look at what an example in PHP would look like:<br /><br />
 
 ```php
 $oauth = new OAuth(
@@ -34,23 +35,26 @@ $requestToken = $oauth->getRequestToken(
     'https://www.alpinereplay.com/api/oauth_init',
     'your callback URL here');
 
-$_SESSION['oauth_request_token'] = $requestToken['oauth_token'];
+$_SESSION['oauth_request_token']        = $requestToken['oauth_token'];
 $_SESSION['oauth_request_token_secret'] = $requestToken['oauth_token_secret'];
 ```
+<br /><br />
 
 ### 2. User redirection
 
-Then you redirect a user to `https://www.alpinereplay.com/api/oauth_login` with request token as `oauth_token` GET
-parameter where he can log in (if he was not logged in) and grant access to your client.
+Now redirect the user to `https://www.alpinereplay.com/api/oauth_login`. The URL string should contain
+`oauth_token` as a GET parameter. This will allow us to grant access once the user has entered her email
+and password.
+
+Using the eample above, here's what the next step would look like:<br /><br />
 
 ```php
 header("Location: https://www.alpinereplay.com/api/oauth_login?oauth_token={$requestToken['oauth_token']}");
 ```
 
-In practice first two steps may be combined in one action that is performed when user presses a control to give access
-to his account to your client.
+In practice these first two steps may be combined into a single script.
 
-Here is a full example for such action in PHP:
+Here is a full example in PHP:<br /><br />
 
 ```php
 session_start();
@@ -67,7 +71,7 @@ try {
         'https://www.alpinereplay.com/api/oauth_init',
         'your callback URL here');
 
-    $_SESSION['oauth_request_token'] = $requestToken['oauth_token'];
+    $_SESSION['oauth_request_token']        = $requestToken['oauth_token'];
     $_SESSION['oauth_request_token_secret'] = $requestToken['oauth_token_secret'];
 
     header("Location: https://www.alpinereplay.com/api/oauth_login?oauth_token={$requestToken['oauth_token']}");
@@ -76,26 +80,28 @@ try {
     // handle errors here
 }
 ```
+<br /><br />
 
 ### 3. Getting access tokens
 
-After user grants access to your client he is redirected to URL that is passed as callback URL on first phase. Also API
-server adds GET parameters `oauth_verifier` and `oauth_token`. You should use them to get user's access token and access
-token secret.
+After the user grants access to your client she'll be redirected to the URL that is passed as a callback URL. The Trace server
+will add two GET parameters `oauth_verifier` and `oauth_token`. These two parameters will give you the user's access
+token and access token secret respectively.
 
-To do it send request to `https://www.alpinereplay.com/api/oauth_access_token` signed with your client tokens and
+Uses these to send a request to `https://www.alpinereplay.com/api/oauth_access_token` signed with your client tokens and
 request tokens from first phase. In response you will get an access tokens.
 
-Here is an example code:
+Here is an example with PHP:<br /><br />
+
 ```php
 session_start();
 
 try {
 
     $verifierToken = $_GET['oauth_verifier'];
-    $requestToken = $_GET['oauth_token'];
+    $requestToken  = $_GET['oauth_token'];
 
-    $oauthToken = $_SESSION['oauth_request_token'];
+    $oauthToken       = $_SESSION['oauth_request_token'];
     $oauthTokenSecret = $_SESSION['oauth_request_token_secret'];
 
     if ($oauthToken != $requestToken) {
@@ -121,3 +127,6 @@ try {
     // handle errors here
 }
 ```
+<br /><br />
+
+Great! You've now been authenticated! You can start requesting select endpoints from the API. Let's take a look at requests and responses first.<br /><br />

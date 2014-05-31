@@ -1,11 +1,11 @@
 {
     "title": "TRACE",
-    "tagline": "Making Action Sports Measurable Sharable and Comparable",
+    "tagline": "Making Action Sports Measurable, Sharable, and Comparable",
     "docs_path": "docs",
     "image": "img/app.png",
     "theme": "custom",
     "template":"default",
-    "toggle_code": false,
+    "toggle_code": true,
     "date_modified": false,
     "google_analytics": "UA-51503888-1",
     "clean_urls": false,
