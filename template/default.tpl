@@ -228,6 +228,7 @@
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
     ga('create', '<?php echo $options['google_analytics'];?>', '<?php echo (isset($_SERVER['HTTP_HOST']))?$_SERVER['HTTP_HOST']:''; ?>');
+    ga('require', 'displayfeatures');
     ga('send', 'pageview');
 
 </script>
