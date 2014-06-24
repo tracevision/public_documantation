@@ -99,23 +99,24 @@ Success response:
 ```javascript
 {
    "success":true,
-   "data":{
-      "All seasons":{
-         "pr":{
+   "data":[
+         {
             "count":2,
             "thumb":"\/images\/badges\/premium\/large\/pr.png",
             "desc":"You set a new personal record",
             "first":"2013-05-13 09:46:14",
-            "title":"PR"
+            "title":"PR",
+            "img" :"/images/badges/ar-large/pr.png"
          },
-         "casual":{
+         {
             "count":1,
             "thumb":"\/images\/badges\/premium\/large\/casual.png",
             "desc":"10 runs in 1 day",
             "first":"2013-05-13 09:46:14",
             "title":"Casual"
+            "img" :"/images/badges/ar-large/casual.png"
          }
-      }
+      ]
    }
 }
 ```
@@ -195,23 +196,24 @@ Success response:
 ```javascript
 {
    "success":true,
-   "data":{
-      "All seasons":{
-         "pr":{
+   "data":[
+         {
             "count":2,
             "thumb":"\/images\/badges\/premium\/large\/pr.png",
             "desc":"You set a new personal record",
             "first":"2013-05-13 09:46:14",
-            "title":"PR"
+            "title":"PR",
+            "img" :"/images/badges/ar-large/pr.png"
          },
-         "casual":{
+         {
             "count":1,
             "thumb":"\/images\/badges\/premium\/large\/casual.png",
             "desc":"10 runs in 1 day",
             "first":"2013-05-13 09:46:14",
             "title":"Casual"
+            "img" :"/images/badges/ar-large/casual.png"
          }
-      }
+      ]
    }
 }
 ```
