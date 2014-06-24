@@ -93,7 +93,9 @@ Success response:
 
 #### **GET users/self/medals**
 
-No request parameters.
+Request Parameter | Mandatory | Default value | Comments
+--- |:---:| --- | --- 
+season | | | Season (e.g. 2013) or empty to get medals for all seasons
 
 Success response:
 ```javascript
@@ -190,7 +192,9 @@ Success response:
 
 #### **GET users/[user_id]/medals**
 
-No request parameters (except user_id in URL).
+Request Parameter | Mandatory | Default value | Comments
+--- |:---:| --- | --- 
+season | | | Season (e.g. 2013) or empty to get medals for all seasons
 
 Success response:
 ```javascript
