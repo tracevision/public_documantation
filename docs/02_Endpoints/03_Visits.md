@@ -58,6 +58,7 @@ Success AlpineReplay response:
                   ],
                   "lift_name":"Skyline",
                   "lo_res_track_id":"89e7effd25ea3dd0"
+                  "hi_res_track_id":"993c67f2f7f03b01"
                },
                "total_distance":2412.25,
                "max_speed":21.5,
@@ -80,6 +81,7 @@ Success AlpineReplay response:
          "season":2013,
          "session_sheet":"http:\/\/dev7.alpinereplay.com\/users\/72000\/72027\/visits\/129593\/session_sheet_129119.jpg?h=9b446842",
          "track_lo_res":"http:\/\/dev7.alpinereplay.com\/users\/72000\/72027\/visits\/129593\/visit.trk",
+         "track_hi_res":"http:\/\/dev7.alpinereplay.com\/users\/72000\/72027\/visits\/129593\/993c67f2f7f03b01.trk",
          "total_distance":28817.274209236,
          "max_speed":24,
          "avg_speed":9.1546521597203,
@@ -135,6 +137,7 @@ Success SurfReplay response:
                      }
                   ],
                   "lo_res_track_id":"cc6e05cb41388ab9"
+                  "hi_res_track_id":"ce28f9c95ae28ee3"
                },
                "total_distance":44.250139416349,
                "max_speed":7.1978108427489,
@@ -154,6 +157,7 @@ Success SurfReplay response:
          "season":2013,
          "session_sheet":"https:\/\/dev7.xsportsw.com-surf.s3.amazonaws.com\/public\/users\/72000\/72024\/surf_sessions\/51\/session_sheet_129089.jpg?h=0e4d87fd",
          "track_lo_res":"http:\/\/dev7.alpinereplay.com\/surf\/users\/72000\/72024\/surf_sessions\/51\/visit.trk",
+         "track_hi_res":"http:\/\/dev7.alpinereplay.com\/surf\/users\/72000\/72024\/surf_sessions\/51\/d98b1c6e93353ff8.trk",
          "total_distance":234.28361776096,
          "max_speed":7.1978108427489,
          "avg_speed":3.6395096190365,
