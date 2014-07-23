@@ -14,6 +14,7 @@ Success AlpineReplay response:
    "data":[
       {
          "visit_id":129593,
+         "single_run_mode":false,
          "resort_title":"Sugarloaf",
          "runs":{
             {
@@ -109,6 +110,7 @@ Success SurfReplay response:
    "data":{
       {
          "visit_id":51,
+         "single_run_mode":false,
          "resort_title":"Huntington Pier",
          "runs":{
             {
