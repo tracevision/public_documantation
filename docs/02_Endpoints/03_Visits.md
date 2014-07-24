@@ -6,6 +6,7 @@ Request Parameter | Mandatory | Default value | Comments
 min_timestamp | | | Minimum UTC timestamp of visits update time
 max_timestamp | | | Maximum UTC timestamp of visits update time
 limit | | 50 |
+visit_ids | | | json array of visit ids
 
 Success AlpineReplay response:
 ```javascript
@@ -15,6 +16,7 @@ Success AlpineReplay response:
       {
          "visit_id":129593,
          "single_run_mode":false,
+         "update_time":"2014-07-24 08:17:36",
          "resort_title":"Sugarloaf",
          "runs":{
             {
@@ -111,6 +113,7 @@ Success SurfReplay response:
       {
          "visit_id":51,
          "single_run_mode":false,
+         "update_time":"2014-07-24 08:17:36",
          "resort_title":"Huntington Pier",
          "runs":{
             {
