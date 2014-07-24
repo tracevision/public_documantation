@@ -363,6 +363,54 @@ Success SurfReplay response:
 }
 ```
 
+#### GET users/[user_id]/visits/list
+Controller and action style:  **new method**  
+Authentication: **API user**  
+Authorization: **users**  
+
+No request parameters.
+
+Success response:
+```javascript
+{
+   "success":true,
+   "data":[
+      {
+         "visit_id":129593,
+         "update_time":"2014-07-24 08:17:36",
+      },
+      {
+         "visit_id":470218,
+         "update_time":"2014-07-23 08:41:38",
+      },
+   ]
+}
+```
+
+#### GET users/self/visits/list
+Controller and action style:  **new method**  
+Authentication: **API user**  
+Authorization: **users**  
+
+No request parameters.
+
+Success response:
+```javascript
+{
+   "success":true,
+   "data":[
+      {
+         "visit_id":129593,
+         "update_time":"2014-07-24 08:17:36",
+      },
+      {
+         "visit_id":470218,
+         "update_time":"2014-07-23 08:41:38",
+      },
+   ]
+}
+```
+
 
 #### **POST users/self/visit-overlay**
 Description: With this call you can upload a track file with data in it (our usual track files either from Trace or from the phone app) and we'll create our video overlay in 1080p with stats like speed, altitude drop, jump information, etc. The overlay has a transparent alpha channel, so you can then use this file in your favorite video editor to create the stats overlay that you want. The link for the resultant video file will be sent to the user's email in the database.
