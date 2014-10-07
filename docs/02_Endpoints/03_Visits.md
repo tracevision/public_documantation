@@ -363,7 +363,7 @@ Success SurfReplay response:
 }
 ```
 
-#### GET users/[user_id]/visits/list
+#### **GET users/[user_id]/visits/list**
 Controller and action style:  **new method**  
 Authentication: **API user**  
 Authorization: **users**  
@@ -387,7 +387,7 @@ Success response:
 }
 ```
 
-#### GET users/self/visits/list
+#### **GET users/self/visits/list**
 Controller and action style:  **new method**  
 Authentication: **API user**  
 Authorization: **users**  
@@ -502,3 +502,19 @@ Success response:
 ```
 
 
+#### **GET visits/[visit_id]/export**
+
+Authentication: **API user**
+Authorization: **users**
+
+No request parameters.
+
+Success response:
+```javascript
+{
+   "success":true,
+   "data":{
+        "gpx_link": "http://.../visit.gpx"
+   }
+}
+```
