@@ -502,7 +502,7 @@ Success response:
 ```
 
 
-#### **GET visits/[visit_id]/export**
+#### **POST visits/[visit_id]/export**
 
 Authentication: **API user**
 Authorization: **users**
