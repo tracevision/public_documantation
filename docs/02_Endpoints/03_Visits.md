@@ -376,13 +376,19 @@ Success response:
    "success":true,
    "data":[
       {
-         "visit_id":129593,
-         "update_time":"2014-07-24 08:17:36",
+         "visit_id":390930,
+         "update_time":"2013-03-15 18:08:55",
+         "session_sheet":"https:\/\/dev7.xsportsw.com.s3.amazonaws.com\/public\/users\/73000\/73799\/visits\/390930\/session_sheet.jpg?h=82fc3a31",
+         "date":"2013-03-15",
+         "resort_title":"Unknown resort"
       },
       {
-         "visit_id":470218,
-         "update_time":"2014-07-23 08:41:38",
-      },
+         "visit_id":469706,
+         "update_time":"2014-10-06 14:20:48",
+         "session_sheet":"http:\/\/tracesnow.dev7.alpinereplay.com\/stats\/get_stats_image?iId=469396",
+         "date":"2014-01-15",
+         "resort_title":"Killington"
+      }
    ]
 }
 ```
@@ -400,13 +406,19 @@ Success response:
    "success":true,
    "data":[
       {
-         "visit_id":129593,
-         "update_time":"2014-07-24 08:17:36",
+         "visit_id":390930,
+         "update_time":"2013-03-15 18:08:55",
+         "session_sheet":"https:\/\/dev7.xsportsw.com.s3.amazonaws.com\/public\/users\/73000\/73799\/visits\/390930\/session_sheet.jpg?h=82fc3a31",
+         "date":"2013-03-15",
+         "resort_title":"Unknown resort"
       },
       {
-         "visit_id":470218,
-         "update_time":"2014-07-23 08:41:38",
-      },
+         "visit_id":469706,
+         "update_time":"2014-10-06 14:20:48",
+         "session_sheet":"http:\/\/tracesnow.dev7.alpinereplay.com\/stats\/get_stats_image?iId=469396",
+         "date":"2014-01-15",
+         "resort_title":"Killington"
+      }
    ]
 }
 ```
