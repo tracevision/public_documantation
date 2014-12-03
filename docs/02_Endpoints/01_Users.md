@@ -51,7 +51,7 @@ Success response:
          "facebook":{
             "access_token":"CAABus...",
             "facebook_id":"100001043710814",
-            "no_permission":true
+            "permission":true
          }
       },
       "email":"foo@bar8.com",
