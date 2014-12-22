@@ -126,19 +126,33 @@ Success SurfReplay response:
                      {
                         "angle":1.8399137376356,
                         "duration":0.80200004577637,
-                        "offset":1382904248.451
+                        "offset":1382904248.451,
+                        "pitch_angle":0.33291302989604,
+                        "roll_angle":0.3687552612955
                      },
                      {
                         "angle":2.0093690798478,
                         "duration":1.6949999332428,
-                        "offset":1382904249.253
+                        "offset":1382904249.253,
+                        "pitch_angle":0.33291302989604,
+                        "roll_angle":0.3687552612955
                      }
                   ],
                   "cutbacks":[
                      {
                         "angle":1.8399137376356,
                         "duration":2.4969999790192,
-                        "offset":1382904248.451
+                        "offset":1382904248.451,
+                        "pitch_angle":1.3288775025193,
+                        "roll_angle":3.1314442313886,
+                        "speed":3.5368231661251
+                     }
+                  ],
+                  "air_reverses":[
+                     {
+                        "duration":0.39891743659973,
+                        "height":0.3469145642668,
+                        "offset":1411235084.1628
                      }
                   ],
                   "lo_res_track_id":"cc6e05cb41388ab9"
@@ -308,19 +322,33 @@ Success SurfReplay response:
                      {
                         "angle":1.8399137376356,
                         "duration":0.80200004577637,
-                        "offset":1382904248.451
+                        "offset":1382904248.451,
+                        "pitch_angle":0.33291302989604,
+                        "roll_angle":0.3687552612955
                      },
                      {
                         "angle":2.0093690798478,
                         "duration":1.6949999332428,
-                        "offset":1382904249.253
+                        "offset":1382904249.253,
+                        "pitch_angle":0.33291302989604,
+                        "roll_angle":0.3687552612955
                      }
                   ],
                   "cutbacks":[
                      {
                         "angle":1.8399137376356,
                         "duration":2.4969999790192,
-                        "offset":1382904248.451
+                        "offset":1382904248.451,
+                        "pitch_angle":1.3288775025193,
+                        "roll_angle":3.1314442313886,
+                        "speed":3.5368231661251
+                     }
+                  ],
+                  "air_reverses":[
+                     {
+                        "duration":0.39891743659973,
+                        "height":0.3469145642668,
+                        "offset":1411235084.1628
                      }
                   ],
                   "lo_res_track_id":"cc6e05cb41388ab9"
