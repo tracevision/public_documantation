@@ -21,6 +21,7 @@ Success AlpineReplay response:
          "runs":{
             {
                "run_id":1451367,
+               "start_time":"2014-03-02 17:08:03",
                "resources":{
                   "jumps":[
                      {
@@ -118,6 +119,7 @@ Success SurfReplay response:
          "runs":{
             {
                "run_id":535,
+               "start_time":"2013-10-27 17:08:03",
                "resources":{
                   "jumps":[
 
@@ -217,6 +219,7 @@ Success AlpineReplay response:
          "runs":{
             {
                "run_id":1451367,
+               "start_time":"2014-03-02 17:08:03",
                "resources":{
                   "jumps":[
                      {
@@ -314,6 +317,7 @@ Success SurfReplay response:
          "runs":{
             {
                "run_id":535,
+               "start_time":"2013-10-27 17:08:03",
                "resources":{
                   "jumps":[
 
