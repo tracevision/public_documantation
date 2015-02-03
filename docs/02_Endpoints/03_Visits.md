@@ -123,7 +123,11 @@ Success SurfReplay response:
                "start_time":"2013-10-27 17:08:03",
                "resources":{
                   "jumps":[
-
+                     {
+                        "duration":0.39891743659973,
+                        "height":0.3469145642668,
+                        "offset":1411235084.1628
+                     }
                   ],
                   "turns":[
                      {
@@ -151,13 +155,6 @@ Success SurfReplay response:
                         "speed":3.5368231661251
                      }
                   ],
-                  "air_reverses":[
-                     {
-                        "duration":0.39891743659973,
-                        "height":0.3469145642668,
-                        "offset":1411235084.1628
-                     }
-                  ],
                   "lo_res_track_id":"cc6e05cb41388ab9"
                   "hi_res_track_id":"ce28f9c95ae28ee3"
                },
@@ -165,8 +162,8 @@ Success SurfReplay response:
                "max_speed":7.1978108427489,
                "avg_speed":4.0964765070197,
                "calories":0,
-               "jumps":0,
-               "air_time":0,
+               "jumps":1,
+               "air_time":0.39891743659973,
                "calories_per_lb":0,
                "ride_time":10.802000045776,
                "paddle_time":0,
@@ -323,7 +320,11 @@ Success SurfReplay response:
                "start_time":"2013-10-27 17:08:03",
                "resources":{
                   "jumps":[
-
+                     {
+                        "duration":0.39891743659973,
+                        "height":0.3469145642668,
+                        "offset":1411235084.1628
+                     }
                   ],
                   "turns":[
                      {
@@ -351,13 +352,6 @@ Success SurfReplay response:
                         "speed":3.5368231661251
                      }
                   ],
-                  "air_reverses":[
-                     {
-                        "duration":0.39891743659973,
-                        "height":0.3469145642668,
-                        "offset":1411235084.1628
-                     }
-                  ],
                   "lo_res_track_id":"cc6e05cb41388ab9"
                   "hi_res_track_id":"ce28f9c95ae28ee3"
                },
@@ -365,8 +359,8 @@ Success SurfReplay response:
                "max_speed":7.1978108427489,
                "avg_speed":4.0964765070197,
                "calories":0,
-               "jumps":0,
-               "air_time":0,
+               "jumps":1,
+               "air_time":0.39891743659973,
                "calories_per_lb":0,
                "ride_time":10.802000045776,
                "paddle_time":0,
