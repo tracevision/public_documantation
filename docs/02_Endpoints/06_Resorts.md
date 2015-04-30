@@ -205,7 +205,7 @@ resort_name | ✓ | |
 visit_id | | | |
 time | | |
 
-Success response:
+Success Snow response:
 ```javascript
 {
     "success":true,
@@ -291,6 +291,79 @@ Success response:
     ]
 }
 ```
+
+Success Surf response:
+```javascript
+{
+    "success":true,
+    "data":[
+        {
+            "time":1385319075,
+            "resort_id":2376,
+            "temperature":27.0688,
+            "temperature_min":25,
+            "temperature_max":30,
+            "humidity":96,
+            "pressure":2722,
+            "conditions":'FEW',
+            "conditions_full":'Partly Cloudy',
+            "icon":"weather-partly-cloudy",
+            "sunrise":1385474377,
+            "sunset":1385509389,
+            "wind_speed":10,
+            "wind_bearing":90,
+            "wave_height":0.5,
+            "wave_bearing":270,
+            "wave_period":2.8,
+            "tide":0.1,
+            "tide_bearing":180,
+        },
+        {
+            "time":1385405475,
+            "resort_id":2376,
+            "temperature":27.0688,
+            "temperature_min":25,
+            "temperature_max":30,
+            "humidity":96,
+            "pressure":2722,
+            "conditions":'FEW',
+            "conditions_full":'Partly Cloudy',
+            "icon":"weather-partly-cloudy",
+            "sunrise":1385474377,
+            "sunset":1385509389,
+            "wind_speed":10,
+            "wind_bearing":90,
+            "wave_height":0.5,
+            "wave_bearing":270,
+            "wave_period":2.8,
+            "tide":0.1,
+            "tide_bearing":180,
+        },
+        {
+            "time":1385491875,
+            "resort_id":2376,
+            "temperature":27.0688,
+            "temperature_min":25,
+            "temperature_max":30,
+            "humidity":96,
+            "pressure":2722,
+            "conditions":'FEW',
+            "conditions_full":'Partly Cloudy',
+            "icon":"weather-partly-cloudy",
+            "sunrise":1385474377,
+            "sunset":1385509389,
+            "wind_speed":10,
+            "wind_bearing":90,
+            "wave_height":0.5,
+            "wave_bearing":270,
+            "wave_period":2.8,
+            "tide":0.1,
+            "tide_bearing":180,
+        }
+    ]
+}
+```
+
 #### GET resorts/[resort_name]/weather/report
 Controller and action style: **{android,iphone}/get_resort_weather_report**
 Authentication: **API user**
@@ -302,7 +375,7 @@ resort_name | ✓ | |
 visit_id | | | |
 time | | |
 
-Success response:
+Success Snow response:
 ```javascript
 {
     "success":true,
@@ -387,3 +460,76 @@ Success response:
         }
     ]
 }
+```
+
+Success Surf response:
+```javascript
+{
+    "success":true,
+    "data":[
+        {
+            "time":1385319075,
+            "resort_id":2376,
+            "temperature":27.0688,
+            "temperature_min":25,
+            "temperature_max":30,
+            "humidity":96,
+            "pressure":2722,
+            "conditions":'FEW',
+            "conditions_full":'Partly Cloudy',
+            "icon":"weather-partly-cloudy",
+            "sunrise":1385474377,
+            "sunset":1385509389,
+            "wind_speed":10,
+            "wind_bearing":90,
+            "wave_height":0.5,
+            "wave_bearing":270,
+            "wave_period":2.8,
+            "tide":0.1,
+            "tide_bearing":180,
+        },
+        {
+            "time":1385405475,
+            "resort_id":2376,
+            "temperature":27.0688,
+            "temperature_min":25,
+            "temperature_max":30,
+            "humidity":96,
+            "pressure":2722,
+            "conditions":'FEW',
+            "conditions_full":'Partly Cloudy',
+            "icon":"weather-partly-cloudy",
+            "sunrise":1385474377,
+            "sunset":1385509389,
+            "wind_speed":10,
+            "wind_bearing":90,
+            "wave_height":0.5,
+            "wave_bearing":270,
+            "wave_period":2.8,
+            "tide":0.1,
+            "tide_bearing":180,
+        },
+        {
+            "time":1385491875,
+            "resort_id":2376,
+            "temperature":27.0688,
+            "temperature_min":25,
+            "temperature_max":30,
+            "humidity":96,
+            "pressure":2722,
+            "conditions":'FEW',
+            "conditions_full":'Partly Cloudy',
+            "icon":"weather-partly-cloudy",
+            "sunrise":1385474377,
+            "sunset":1385509389,
+            "wind_speed":10,
+            "wind_bearing":90,
+            "wave_height":0.5,
+            "wave_bearing":270,
+            "wave_period":2.8,
+            "tide":0.1,
+            "tide_bearing":180,
+        }
+    ]
+}
+```
