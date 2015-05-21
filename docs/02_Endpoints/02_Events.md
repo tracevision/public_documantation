@@ -77,7 +77,24 @@ Properties for new visit:
          "visit":{
             "visit_id":129304,
             "resort_title":"Sugarloaf",
-            "image":"...inereplay.com\/stats\/get_stats_image?iId=45"
+            "image":"...inereplay.com\/stats\/get_stats_image?iId=45",
+            "stats":{
+               "total_distance":3395.2783795707,
+               "max_speed":16.361573885174,
+               "avg_speed":9.0108148191514,
+               "calories":59.473302995155,
+               "jumps":0,
+               "air_time":0,
+               "calories_per_lb":0.0010912532659662,
+               "max_slope":0.488109859999,
+               "slope_time":398.59999990463,
+               "lift_time":567.20000004768,
+               "rest_time":57.200000047684,
+               "vertical_drop":683.40430540792,
+               "avg_slope":0.19186970055397,
+               "sustained_speed":14.935487939803,
+               "lunch_time":0
+            }
          }
 ```
 
@@ -109,5 +126,22 @@ Success response:
 ```
 Note: show_facebook_like may be omitted if a task for a Facebook like was not created.
 
+#### POST events/[event_id]/comment
+Controller and action style: **comment/create**
+Authentication: **API user**
+Authorization: **users**
+
+Request Parameter | Mandatory | Default value | Comments
+--- |:---:| --- | ---
+message | ✓ | | Comment text
+
+Success response:
+```javascript
+{
+   "success":true,
+   "data":{
+   }
+}
+```
 
 
