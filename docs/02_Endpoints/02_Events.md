@@ -77,6 +77,7 @@ Properties for new visit:
          "visit":{
             "visit_id":129304,
             "resort_title":"Sugarloaf",
+            "resort_name":"sugarloaf",
             "image":"...inereplay.com\/stats\/get_stats_image?iId=45",
             "stats":{
                "total_distance":3395.2783795707,
@@ -126,10 +127,32 @@ Success response:
 ```
 Note: show_facebook_like may be omitted if a task for a Facebook like was not created.
 
-#### POST events/[event_id]/comment
-Controller and action style: **comment/create**
-Authentication: **API user**
-Authorization: **users**
+#### **POST events/[event_id]/unlike**
+
+No request parameters (except event_id in URL).
+
+Success response:
+```javascript
+{
+   "success":true,
+   "data":{
+      "likes_count":0
+   }
+}
+```
+
+Failure response
+```javascript
+{
+    "success": "false",
+    "error": {
+        "id": “like_not_found”,
+        "message": “Like not found”
+    }
+}
+```
+
+#### **POST events/[event_id]/comment**
 
 Request Parameter | Mandatory | Default value | Comments
 --- |:---:| --- | ---
@@ -140,7 +163,20 @@ Success response:
 {
    "success":true,
    "data":{
-   }
+       "comment":{
+           "user_event_comment_id":102,
+           "can_delete":true,
+           "time":"now",
+           "is_like":false,
+           "message":"776820dc79067591e4228d48f694aa3f",
+           "author":{
+               "user_id":260116,
+               "userpic_100":"http:\/\/snow.traceup.com\/images\/userpics\/100x100.jpg",
+               "userpic_40":"http:\/\/snow.traceup.com\/images\/userpics\/40x40.jpg",
+               "short_name":"Testf3d5806c5e"
+           }
+       }
+    }
 }
 ```
 
