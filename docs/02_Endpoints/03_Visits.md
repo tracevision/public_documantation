@@ -560,3 +560,61 @@ Success response:
    }
 }
 ```
+
+#### **GET visits/[visit_id]/weather**
+Controller and action style:  **new method**
+Authentication: **API user**
+Authorization: **users**
+
+No request parameters (except visit_id in URL).
+
+Success Ski response:
+```javascript
+{
+   "success":true,
+   "data":{
+       "time":1428660000,
+       "wind_strength":0,
+       "resort_id":3880,
+       "temperature":-27.921,
+       "temperature_min":0,
+       "temperature_max":0,
+       "humidity":13,
+       "pressure":1166,
+       "reported_snow_fall":0,
+       "reported_snow_fall_48":0,
+       "reported_snow_fall_72":0,
+       "num_lifts":0,
+       "num_lifts_open":0,
+       "num_runs":0,
+       "num_trails_open":0,
+       "base_depth":0,
+       "icon":"weather-partly-cloudy",
+       "wind_speed":0,
+       "sunrise":1428640029,
+       "sunset":1428688168,
+       "precip_depth":0
+   }
+}
+```
+
+Success Surf response:
+```javascript
+{
+   "success":true,
+   "data":{
+       "time":1431403200,
+       "wind_strength":0,
+       "beach_id":26208,
+       "wave_height":1.9584,
+       "wave_bearing":213,
+       "wave_period":10.2,
+       "tide":1.083135,
+       "icon":"weather-partly-cloudy",
+       "wind_speed":0,
+       "sunrise":1431376450,
+       "sunset":1431414361
+   }
+}
+```
+Note: data part might be empty if no resort is bound to the visit or no weather for resort is available at the visit date.
