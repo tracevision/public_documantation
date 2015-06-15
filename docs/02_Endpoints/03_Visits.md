@@ -152,7 +152,8 @@ Success SurfReplay response:
                         "offset":1382904248.451,
                         "pitch_angle":1.3288775025193,
                         "roll_angle":3.1314442313886,
-                        "speed":3.5368231661251
+                        "speed":3.5368231661251,
+                        "power":2.5705283853725
                      }
                   ],
                   "lo_res_track_id":"cc6e05cb41388ab9"
@@ -349,7 +350,8 @@ Success SurfReplay response:
                         "offset":1382904248.451,
                         "pitch_angle":1.3288775025193,
                         "roll_angle":3.1314442313886,
-                        "speed":3.5368231661251
+                        "speed":3.5368231661251,
+                        "power":2.5705283853725
                      }
                   ],
                   "lo_res_track_id":"cc6e05cb41388ab9"
