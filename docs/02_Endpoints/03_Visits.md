@@ -83,9 +83,9 @@ Success AlpineReplay response:
          },
          "date":"2014-03-02",
          "season":2013,
-         "session_sheet":"http:\/\/dev7.alpinereplay.com\/users\/72000\/72027\/visits\/129593\/session_sheet_129119.jpg?h=9b446842",
-         "track_lo_res":"http:\/\/dev7.alpinereplay.com\/users\/72000\/72027\/visits\/129593\/visit.trk",
-         "track_hi_res":"http:\/\/dev7.alpinereplay.com\/users\/72000\/72027\/visits\/129593\/993c67f2f7f03b01.trk",
+         "session_sheet":"http:\/\/...com\/users\/72000\/72027\/visits\/129593\/session_sheet_129119.jpg?h=9b446842",
+         "track_lo_res":"http:\/\/...com\/users\/72000\/72027\/visits\/129593\/visit.trk",
+         "track_hi_res":"http:\/\/...com\/users\/72000\/72027\/visits\/129593\/993c67f2f7f03b01.trk",
          "device_type":"trace",
          "total_distance":28817.274209236,
          "max_speed":24,
@@ -111,89 +111,95 @@ Success SurfReplay response:
 ```javascript
 {
    "success":true,
-   "data":{
+   "data":[
       {
-         "visit_id":51,
+         "visit_id":710,
          "single_run_mode":false,
-         "update_time":"2014-07-24 08:17:36",
-         "resort_title":"Huntington Pier",
-         "runs":{
+         "update_time":"2015-06-18 13:58:05",
+         "resort_title":"Lower Trestles",
+         "runs":[
             {
-               "run_id":535,
-               "start_time":"2013-10-27 17:08:03",
+               "run_id":6728,
+               "start_time":"2015-06-11 15:12:49",
                "resources":{
                   "jumps":[
                      {
-                        "duration":0.39891743659973,
-                        "height":0.3469145642668,
-                        "offset":1411235084.1628
-                     }
-                  ],
-                  "turns":[
-                     {
-                        "angle":1.8399137376356,
-                        "duration":0.80200004577637,
-                        "offset":1382904248.451,
-                        "pitch_angle":0.33291302989604,
-                        "roll_angle":0.3687552612955
-                     },
-                     {
-                        "angle":2.0093690798478,
-                        "duration":1.6949999332428,
-                        "offset":1382904249.253,
-                        "pitch_angle":0.33291302989604,
-                        "roll_angle":0.3687552612955
+                        "bottom_turn":{
+                           "angle":2.0449782177287,
+                           "duration":0.91000270843506,
+                           "initial_speed":9.8748835109338,
+                           "offset":1434035574.4419,
+                           "roll_angle":0.77971739233362,
+                           "speed_gain":0.99871869878497,
+                           "vertical":66.932779820941
+                        },
+                        "duration":0.38100099563599,
+                        "height":0.31645263391284,
+                        "offset":1434035575.4309
                      }
                   ],
                   "cutbacks":[
                      {
-                        "angle":1.8399137376356,
-                        "duration":2.4969999790192,
-                        "offset":1382904248.451,
-                        "pitch_angle":1.3288775025193,
-                        "roll_angle":3.1314442313886,
-                        "speed":3.5368231661251,
-                        "power":2.5705283853725
+                        "angle":4.2269022388381,
+                        "bottom_turn":{
+                           "angle":2.3531268564004,
+                           "duration":1.0000030994415,
+                           "initial_speed":8.3040393283667,
+                           "offset":1434035577.4849,
+                           "roll_angle":1.1135685537327,
+                           "speed_gain":0.72827139422401,
+                           "vertical":50.387893062057
+                        },
+                        "duration":1.4480042457581,
+                        "offset":1434035578.4849,
+                        "pitch_angle":0.88292636603308,
+                        "power":9.1181047180415,
+                        "roll_angle":1.395900988425,
+                        "speed":7.0556366238778
                      }
                   ],
-                  "lo_res_track_id":"cc6e05cb41388ab9"
-                  "hi_res_track_id":"ce28f9c95ae28ee3"
+                  "lo_res_track_id":"f62821216756647f",
+                  "hi_res_track_id":"17b4d701f0581475"
                },
-               "total_distance":44.250139416349,
-               "max_speed":7.1978108427489,
-               "avg_speed":4.0964765070197,
-               "calories":0,
+               "total_distance":92.069442184946,
+               "max_speed":11.026549777696,
+               "avg_speed":6.4487753557003,
+               "calories":8.7360104541531,
                "jumps":1,
-               "air_time":0.39891743659973,
-               "calories_per_lb":0,
-               "ride_time":10.802000045776,
-               "paddle_time":0,
+               "air_time":0.38100099563599,
+               "calories_per_lb":0.00034944041816612,
+               "ride_time":14.277042865753,
+               "paddle_time":147.60544347763,
                "wait_time":0,
                "waves_missed":0,
-               "paddle_distance":0
+               "paddle_distance":145.0574779941,
+               "turns_num":1,
+               "sharpest_turn":4.2269022388381
             }
-         },
-         "date":"2013-10-27",
-         "season":2013,
-         "session_sheet":"https:\/\/dev7.xsportsw.com-surf.s3.amazonaws.com\/public\/users\/72000\/72024\/surf_sessions\/51\/session_sheet_129089.jpg?h=0e4d87fd",
-         "track_lo_res":"http:\/\/dev7.alpinereplay.com\/surf\/users\/72000\/72024\/surf_sessions\/51\/visit.trk",
-         "track_hi_res":"http:\/\/dev7.alpinereplay.com\/surf\/users\/72000\/72024\/surf_sessions\/51\/d98b1c6e93353ff8.trk",
+         ],
+         "date":"2015-06-11",
+         "season":2015,
+         "session_sheet":"...com\/stats\/get_stats_image?iId=471787",
+         "track_lo_res":"...com\/users\/71000\/71202\/surf_sessions\/710\/visit.trk",
+         "track_hi_res":"...com\/users\/71000\/71202\/surf_sessions\/710\/17b4d701f0581475.trk",
          "device_type":"trace",
-         "total_distance":234.28361776096,
-         "max_speed":7.1978108427489,
-         "avg_speed":3.6395096190365,
-         "calories":71.87498335435,
-         "jumps":0,
-         "air_time":0,
-         "calories_per_lb":0.0013188070340248,
-         "ride_time":62.178000211716,
-         "paddle_time":672.69100022316,
-         "wait_time":2466.0700006485,
+         "total_distance":92.069442184946,
+         "max_speed":11.026549777696,
+         "avg_speed":6.4487753557003,
+         "calories":8.736010454153,
+         "jumps":1,
+         "air_time":0.38100099563599,
+         "calories_per_lb":0.00034944041816612,
+         "ride_time":14.277042865753,
+         "paddle_time":147.60544347763,
+         "wait_time":69.401000499725,
          "waves_missed":0,
-         "paddle_distance":650.63030354383,
-         "longest_ride":62.324761436524
+         "paddle_distance":145.0574779941,
+         "longest_ride":92.069442184946,
+         "turns_num":1,
+         "sharpest_turn":4.2269022388381
       }
-   }
+   ]
 }
 ```
 
@@ -281,9 +287,9 @@ Success AlpineReplay response:
          },
          "date":"2014-03-02",
          "season":2013,
-         "session_sheet":"http:\/\/dev7.alpinereplay.com\/users\/72000\/72027\/visits\/129593\/session_sheet_129119.jpg?h=9b446842",
-         "track_lo_res":"http:\/\/dev7.alpinereplay.com\/users\/72000\/72027\/visits\/129593\/visit.trk",
-         "track_hi_res":"http:\/\/dev7.alpinereplay.com\/users\/72000\/72027\/visits\/129593\/993c67f2f7f03b01.trk",
+         "session_sheet":"http:\/\/...com\/users\/72000\/72027\/visits\/129593\/session_sheet_129119.jpg?h=9b446842",
+         "track_lo_res":"http:\/\/...com\/users\/72000\/72027\/visits\/129593\/visit.trk",
+         "track_hi_res":"http:\/\/...com\/users\/72000\/72027\/visits\/129593\/993c67f2f7f03b01.trk",
          "device_type":"trace",
          "total_distance":28817.274209236,
          "max_speed":24,
@@ -309,89 +315,95 @@ Success SurfReplay response:
 ```javascript
 {
    "success":true,
-   "data":{
+   "data":[
       {
-         "visit_id":51,
+         "visit_id":710,
          "single_run_mode":false,
-         "update_time":"2014-07-24 08:17:36",
-         "resort_title":"Huntington Pier",
-         "runs":{
+         "update_time":"2015-06-18 13:58:05",
+         "resort_title":"Lower Trestles",
+         "runs":[
             {
-               "run_id":535,
-               "start_time":"2013-10-27 17:08:03",
+               "run_id":6728,
+               "start_time":"2015-06-11 15:12:49",
                "resources":{
                   "jumps":[
                      {
-                        "duration":0.39891743659973,
-                        "height":0.3469145642668,
-                        "offset":1411235084.1628
-                     }
-                  ],
-                  "turns":[
-                     {
-                        "angle":1.8399137376356,
-                        "duration":0.80200004577637,
-                        "offset":1382904248.451,
-                        "pitch_angle":0.33291302989604,
-                        "roll_angle":0.3687552612955
-                     },
-                     {
-                        "angle":2.0093690798478,
-                        "duration":1.6949999332428,
-                        "offset":1382904249.253,
-                        "pitch_angle":0.33291302989604,
-                        "roll_angle":0.3687552612955
+                        "bottom_turn":{
+                           "angle":2.0449782177287,
+                           "duration":0.91000270843506,
+                           "initial_speed":9.8748835109338,
+                           "offset":1434035574.4419,
+                           "roll_angle":0.77971739233362,
+                           "speed_gain":0.99871869878497,
+                           "vertical":66.932779820941
+                        },
+                        "duration":0.38100099563599,
+                        "height":0.31645263391284,
+                        "offset":1434035575.4309
                      }
                   ],
                   "cutbacks":[
                      {
-                        "angle":1.8399137376356,
-                        "duration":2.4969999790192,
-                        "offset":1382904248.451,
-                        "pitch_angle":1.3288775025193,
-                        "roll_angle":3.1314442313886,
-                        "speed":3.5368231661251,
-                        "power":2.5705283853725
+                        "angle":4.2269022388381,
+                        "bottom_turn":{
+                           "angle":2.3531268564004,
+                           "duration":1.0000030994415,
+                           "initial_speed":8.3040393283667,
+                           "offset":1434035577.4849,
+                           "roll_angle":1.1135685537327,
+                           "speed_gain":0.72827139422401,
+                           "vertical":50.387893062057
+                        },
+                        "duration":1.4480042457581,
+                        "offset":1434035578.4849,
+                        "pitch_angle":0.88292636603308,
+                        "power":9.1181047180415,
+                        "roll_angle":1.395900988425,
+                        "speed":7.0556366238778
                      }
                   ],
-                  "lo_res_track_id":"cc6e05cb41388ab9"
-                  "hi_res_track_id":"ce28f9c95ae28ee3"
+                  "lo_res_track_id":"f62821216756647f",
+                  "hi_res_track_id":"17b4d701f0581475"
                },
-               "total_distance":44.250139416349,
-               "max_speed":7.1978108427489,
-               "avg_speed":4.0964765070197,
-               "calories":0,
+               "total_distance":92.069442184946,
+               "max_speed":11.026549777696,
+               "avg_speed":6.4487753557003,
+               "calories":8.7360104541531,
                "jumps":1,
-               "air_time":0.39891743659973,
-               "calories_per_lb":0,
-               "ride_time":10.802000045776,
-               "paddle_time":0,
+               "air_time":0.38100099563599,
+               "calories_per_lb":0.00034944041816612,
+               "ride_time":14.277042865753,
+               "paddle_time":147.60544347763,
                "wait_time":0,
                "waves_missed":0,
-               "paddle_distance":0
+               "paddle_distance":145.0574779941,
+               "turns_num":1,
+               "sharpest_turn":4.2269022388381
             }
-         },
-         "date":"2013-10-27",
-         "season":2013,
-         "session_sheet":"https:\/\/dev7.xsportsw.com-surf.s3.amazonaws.com\/public\/users\/72000\/72024\/surf_sessions\/51\/session_sheet_129089.jpg?h=0e4d87fd",
-         "track_lo_res":"http:\/\/dev7.alpinereplay.com\/surf\/users\/72000\/72024\/surf_sessions\/51\/visit.trk",
-         "track_hi_res":"http:\/\/dev7.alpinereplay.com\/surf\/users\/72000\/72024\/surf_sessions\/51\/d98b1c6e93353ff8.trk",
+         ],
+         "date":"2015-06-11",
+         "season":2015,
+         "session_sheet":"...com\/stats\/get_stats_image?iId=471787",
+         "track_lo_res":"...com\/users\/71000\/71202\/surf_sessions\/710\/visit.trk",
+         "track_hi_res":"...com\/users\/71000\/71202\/surf_sessions\/710\/17b4d701f0581475.trk",
          "device_type":"trace",
-         "total_distance":234.28361776096,
-         "max_speed":7.1978108427489,
-         "avg_speed":3.6395096190365,
-         "calories":71.87498335435,
-         "jumps":0,
-         "air_time":0,
-         "calories_per_lb":0.0013188070340248,
-         "ride_time":62.178000211716,
-         "paddle_time":672.69100022316,
-         "wait_time":2466.0700006485,
+         "total_distance":92.069442184946,
+         "max_speed":11.026549777696,
+         "avg_speed":6.4487753557003,
+         "calories":8.736010454153,
+         "jumps":1,
+         "air_time":0.38100099563599,
+         "calories_per_lb":0.00034944041816612,
+         "ride_time":14.277042865753,
+         "paddle_time":147.60544347763,
+         "wait_time":69.401000499725,
          "waves_missed":0,
-         "paddle_distance":650.63030354383,
-         "longest_ride":62.324761436524
+         "paddle_distance":145.0574779941,
+         "longest_ride":92.069442184946,
+         "turns_num":1,
+         "sharpest_turn":4.2269022388381
       }
-   }
+   ]
 }
 ```
 
@@ -410,14 +422,14 @@ Success response:
       {
          "visit_id":390930,
          "update_time":"2013-03-15 18:08:55",
-         "session_sheet":"https:\/\/dev7.xsportsw.com.s3.amazonaws.com\/public\/users\/73000\/73799\/visits\/390930\/session_sheet.jpg?h=82fc3a31",
+         "session_sheet":"https:\/\/...com\/public\/users\/73000\/73799\/visits\/390930\/session_sheet.jpg?h=82fc3a31",
          "date":"2013-03-15",
          "resort_title":"Unknown resort"
       },
       {
          "visit_id":469706,
          "update_time":"2014-10-06 14:20:48",
-         "session_sheet":"http:\/\/tracesnow.dev7.alpinereplay.com\/stats\/get_stats_image?iId=469396",
+         "session_sheet":"http:\/\/...com\/stats\/get_stats_image?iId=469396",
          "date":"2014-01-15",
          "resort_title":"Killington"
       }
@@ -440,14 +452,14 @@ Success response:
       {
          "visit_id":390930,
          "update_time":"2013-03-15 18:08:55",
-         "session_sheet":"https:\/\/dev7.xsportsw.com.s3.amazonaws.com\/public\/users\/73000\/73799\/visits\/390930\/session_sheet.jpg?h=82fc3a31",
+         "session_sheet":"https:\/\/...com\/public\/users\/73000\/73799\/visits\/390930\/session_sheet.jpg?h=82fc3a31",
          "date":"2013-03-15",
          "resort_title":"Unknown resort"
       },
       {
          "visit_id":469706,
          "update_time":"2014-10-06 14:20:48",
-         "session_sheet":"http:\/\/tracesnow.dev7.alpinereplay.com\/stats\/get_stats_image?iId=469396",
+         "session_sheet":"http:\/\/...com\/stats\/get_stats_image?iId=469396",
          "date":"2014-01-15",
          "resort_title":"Killington"
       }
