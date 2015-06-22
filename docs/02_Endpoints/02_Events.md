@@ -39,7 +39,8 @@ The event item contains general information and information specific to event. G
             {
                "user_event_comment_id":1285,
                "can_delete":true,
-               "time":"06\/05\/2013 12:10:43",
+               "post_time":"2013-06-05 12:10:43",
+               "time":"now",
                "is_like":false,
                "message":"hello world!",
                "author":{
@@ -166,6 +167,7 @@ Success response:
        "comment":{
            "user_event_comment_id":102,
            "can_delete":true,
+           "post_time":"2013-06-05 12:10:43",
            "time":"now",
            "is_like":false,
            "message":"776820dc79067591e4228d48f694aa3f",
