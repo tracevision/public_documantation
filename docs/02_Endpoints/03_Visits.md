@@ -512,6 +512,7 @@ Request Parameter | Mandatory | Default value | Comments
 facebook | | | Create post in Facebook
 twitter | | | Create post in Twitter
 photo | | | Photo file
+hide_resort_name | | 0 | [0,1] If resort name must be shown as a 'Secret Spot'
 comment | | |
 
 

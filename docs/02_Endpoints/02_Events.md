@@ -105,7 +105,7 @@ Properties for new video:
 ```javascript
          "video":{
             "video_id":139,
-            "resort_titile":"Sugarloaf",
+            "start_time":"2014-03-02 17:08:03",
             "link":"http:\/\/www.youtube.com\/watch?v=_ShlXyCT1A0"
          }
 ```
