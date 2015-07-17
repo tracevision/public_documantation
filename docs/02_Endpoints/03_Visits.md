@@ -102,6 +102,9 @@ Success AlpineReplay response:
          "avg_slope":0.20432066521036,
          "sustained_speed":19.75,
          "lunch_time":0
+         "resources": {
+             "equipment":["Head Adapt Edge 100 Mens Ski Boots","Giro G10 Ski Helmet"]
+         }
       }
    ]
 }
@@ -198,6 +201,9 @@ Success SurfReplay response:
          "longest_ride":92.069442184946,
          "turns_num":1,
          "sharpest_turn":4.2269022388381
+         "resources": {
+             "equipment":["GNARLOO FLOUNDER POUNDER FISH 5'6\"","QUIKSILVER SYNCRO 3/2MM BZ"]
+         }
       }
    ]
 }
@@ -306,6 +312,9 @@ Success AlpineReplay response:
          "avg_slope":0.20432066521036,
          "sustained_speed":19.75,
          "lunch_time":0
+         "resources": {
+             "equipment":["Head Adapt Edge 100 Mens Ski Boots","Giro G10 Ski Helmet"]
+         }
       }
    ]
 }
@@ -402,6 +411,9 @@ Success SurfReplay response:
          "longest_ride":92.069442184946,
          "turns_num":1,
          "sharpest_turn":4.2269022388381
+         "resources": {
+             "equipment":["GNARLOO FLOUNDER POUNDER FISH 5'6\"","QUIKSILVER SYNCRO 3/2MM BZ"]
+         }
       }
    ]
 }
@@ -514,6 +526,7 @@ twitter | | | Create post in Twitter
 photo | | | Photo file
 hide_resort_name | | 0 | [0,1] If resort name must be shown as a 'Secret Spot'
 comment | | |
+equipment | | |  comma-separated values string, up to 1000 characters in total
 
 
 Success response:
@@ -633,3 +646,37 @@ Success Surf response:
 }
 ```
 Note: data part might be empty if no resort is bound to the visit or no weather for resort is available at the visit date.
+
+#### **GET visits/[visit_id]/equipment**
+Controller and action style:  **new method**
+Authentication: **API user**
+Authorization: **users**
+
+No request parameters (except visit_id in URL).
+
+Success response:
+```javascript
+{
+   "success":true,
+   "data":{
+       "equipment":["GNARLOO FLOUNDER POUNDER FISH 5'6\"","QUIKSILVER SYNCRO 3/2MM BZ"]
+   }
+}
+```
+
+#### **POST visits/[visit_id]/equipment**
+Controller and action style:  **new method**
+Authentication: **API user**
+Authorization: **users**
+
+Request Parameter | Mandatory | Default value | Comments
+--- |:---:| --- | ---
+equipment | | |  comma-separated values string, up to 1000 characters in total
+
+Success response:
+```javascript
+{
+   "success":true,
+   "data":[]
+}
+```
