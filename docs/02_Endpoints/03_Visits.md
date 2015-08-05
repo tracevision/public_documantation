@@ -61,8 +61,9 @@ Success AlpineReplay response:
                      }
                   ],
                   "lift_name":"Skyline",
-                  "lo_res_track_id":"89e7effd25ea3dd0"
-                  "hi_res_track_id":"993c67f2f7f03b01"
+                  "lo_res_track_id":"89e7effd25ea3dd0",
+                  "hi_res_track_id":"993c67f2f7f03b01",
+                  "paddle_tracks_ids":["f15ed4eebe1cad9d","bb2b04d48869f5fa"]
                },
                "total_distance":2412.25,
                "max_speed":21.5,
@@ -86,6 +87,7 @@ Success AlpineReplay response:
          "session_sheet":"http:\/\/...com\/users\/72000\/72027\/visits\/129593\/session_sheet_129119.jpg?h=9b446842",
          "track_lo_res":"http:\/\/...com\/users\/72000\/72027\/visits\/129593\/visit.trk",
          "track_hi_res":"http:\/\/...com\/users\/72000\/72027\/visits\/129593\/993c67f2f7f03b01.trk",
+         "track_paddle":"http:\/\/...com\/users\/72000\/72027\/visits\/129593\/paddle.trk",
          "device_type":"trace",
          "total_distance":28817.274209236,
          "max_speed":24,
@@ -162,7 +164,8 @@ Success SurfReplay response:
                      }
                   ],
                   "lo_res_track_id":"f62821216756647f",
-                  "hi_res_track_id":"17b4d701f0581475"
+                  "hi_res_track_id":"17b4d701f0581475",
+                  "paddle_tracks_ids":["2f859cb05ff4b3a8","9ca9212139de6ceb"]
                },
                "total_distance":92.069442184946,
                "max_speed":11.026549777696,
@@ -185,6 +188,7 @@ Success SurfReplay response:
          "session_sheet":"...com\/stats\/get_stats_image?iId=471787",
          "track_lo_res":"...com\/users\/71000\/71202\/surf_sessions\/710\/visit.trk",
          "track_hi_res":"...com\/users\/71000\/71202\/surf_sessions\/710\/17b4d701f0581475.trk",
+         "track_paddle":"...com\/users\/71000\/71202\/surf_sessions\/710\/paddle.trk",
          "device_type":"trace",
          "total_distance":92.069442184946,
          "max_speed":11.026549777696,
@@ -271,8 +275,9 @@ Success AlpineReplay response:
                      }
                   ],
                   "lift_name":"Skyline",
-                  "lo_res_track_id":"89e7effd25ea3dd0"
-                  "hi_res_track_id":"993c67f2f7f03b01"
+                  "lo_res_track_id":"89e7effd25ea3dd0",
+                  "hi_res_track_id":"993c67f2f7f03b01",
+                  "paddle_tracks_ids":["f15ed4eebe1cad9d","bb2b04d48869f5fa"]
                },
                "total_distance":2412.25,
                "max_speed":21.5,
@@ -296,6 +301,7 @@ Success AlpineReplay response:
          "session_sheet":"http:\/\/...com\/users\/72000\/72027\/visits\/129593\/session_sheet_129119.jpg?h=9b446842",
          "track_lo_res":"http:\/\/...com\/users\/72000\/72027\/visits\/129593\/visit.trk",
          "track_hi_res":"http:\/\/...com\/users\/72000\/72027\/visits\/129593\/993c67f2f7f03b01.trk",
+         "track_paddle":"http:\/\/...com\/users\/72000\/72027\/visits\/129593\/paddle.trk",
          "device_type":"trace",
          "total_distance":28817.274209236,
          "max_speed":24,
@@ -372,7 +378,8 @@ Success SurfReplay response:
                      }
                   ],
                   "lo_res_track_id":"f62821216756647f",
-                  "hi_res_track_id":"17b4d701f0581475"
+                  "hi_res_track_id":"17b4d701f0581475",
+                  "paddle_tracks_ids":["2f859cb05ff4b3a8","9ca9212139de6ceb"]
                },
                "total_distance":92.069442184946,
                "max_speed":11.026549777696,
@@ -395,6 +402,7 @@ Success SurfReplay response:
          "session_sheet":"...com\/stats\/get_stats_image?iId=471787",
          "track_lo_res":"...com\/users\/71000\/71202\/surf_sessions\/710\/visit.trk",
          "track_hi_res":"...com\/users\/71000\/71202\/surf_sessions\/710\/17b4d701f0581475.trk",
+         "track_paddle":"...com\/users\/71000\/71202\/surf_sessions\/710\/paddle.trk",
          "device_type":"trace",
          "total_distance":92.069442184946,
          "max_speed":11.026549777696,
