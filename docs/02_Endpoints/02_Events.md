@@ -182,4 +182,30 @@ Success response:
 }
 ```
 
+#### **GET events/[event_id]**
 
+No request parameters (except event_id in URL).
+
+Success response: 
+```javascript
+{
+   "success":true,
+   "data":{
+      <event item. see "GET users/self/events" for details>
+   }
+}
+```
+
+#### **GET visits/[visit_id]/events**
+
+No request parameters (except visit_id in URL).
+
+Success response: 
+```javascript
+{
+   "success":true,
+   "data":{
+      <array of event items related to visit_id. for items format details see "GET users/self/events">
+   }
+}
+```
