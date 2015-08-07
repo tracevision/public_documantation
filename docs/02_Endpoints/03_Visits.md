@@ -62,8 +62,7 @@ Success AlpineReplay response:
                   ],
                   "lift_name":"Skyline",
                   "lo_res_track_id":"89e7effd25ea3dd0",
-                  "hi_res_track_id":"993c67f2f7f03b01",
-                  "paddle_tracks_ids":["f15ed4eebe1cad9d","bb2b04d48869f5fa"]
+                  "hi_res_track_id":"993c67f2f7f03b01"
                },
                "total_distance":2412.25,
                "max_speed":21.5,
@@ -86,8 +85,7 @@ Success AlpineReplay response:
          "season":2013,
          "session_sheet":"http:\/\/...com\/users\/72000\/72027\/visits\/129593\/session_sheet_129119.jpg?h=9b446842",
          "track_lo_res":"http:\/\/...com\/users\/72000\/72027\/visits\/129593\/visit.trk",
-         "track_hi_res":"http:\/\/...com\/users\/72000\/72027\/visits\/129593\/993c67f2f7f03b01.trk",
-         "track_paddle":"http:\/\/...com\/users\/72000\/72027\/visits\/129593\/paddle.trk",
+         "track_hi_res":"http:\/\/...com\/users\/72000\/72027\/visits\/129593\/993c67f2f7f03b01.trk"
          "device_type":"trace",
          "total_distance":28817.274209236,
          "max_speed":24,
@@ -276,8 +274,7 @@ Success AlpineReplay response:
                   ],
                   "lift_name":"Skyline",
                   "lo_res_track_id":"89e7effd25ea3dd0",
-                  "hi_res_track_id":"993c67f2f7f03b01",
-                  "paddle_tracks_ids":["f15ed4eebe1cad9d","bb2b04d48869f5fa"]
+                  "hi_res_track_id":"993c67f2f7f03b01"
                },
                "total_distance":2412.25,
                "max_speed":21.5,
@@ -300,8 +297,7 @@ Success AlpineReplay response:
          "season":2013,
          "session_sheet":"http:\/\/...com\/users\/72000\/72027\/visits\/129593\/session_sheet_129119.jpg?h=9b446842",
          "track_lo_res":"http:\/\/...com\/users\/72000\/72027\/visits\/129593\/visit.trk",
-         "track_hi_res":"http:\/\/...com\/users\/72000\/72027\/visits\/129593\/993c67f2f7f03b01.trk",
-         "track_paddle":"http:\/\/...com\/users\/72000\/72027\/visits\/129593\/paddle.trk",
+         "track_hi_res":"http:\/\/...com\/users\/72000\/72027\/visits\/129593\/993c67f2f7f03b01.trk"
          "device_type":"trace",
          "total_distance":28817.274209236,
          "max_speed":24,
