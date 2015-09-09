@@ -424,9 +424,6 @@ Success SurfReplay response:
 ```
 
 #### **GET users/[user_id]/visits/list**
-Controller and action style:  **new method**  
-Authentication: **API user**  
-Authorization: **users**  
 
 No request parameters.
 
@@ -454,9 +451,6 @@ Success response:
 ```
 
 #### **GET users/self/visits/list**
-Controller and action style:  **new method**  
-Authentication: **API user**  
-Authorization: **users**  
 
 No request parameters.
 
@@ -578,9 +572,6 @@ Success response:
 
 #### **POST visits/[visit_id]/export**
 
-Authentication: **API user**
-Authorization: **users**
-
 No request parameters.
 
 Success response:
@@ -594,9 +585,6 @@ Success response:
 ```
 
 #### **GET visits/[visit_id]/weather**
-Controller and action style:  **new method**
-Authentication: **API user**
-Authorization: **users**
 
 No request parameters (except visit_id in URL).
 
@@ -652,9 +640,6 @@ Success Surf response:
 Note: data part might be empty if no resort is bound to the visit or no weather for resort is available at the visit date.
 
 #### **GET visits/[visit_id]/equipment**
-Controller and action style:  **new method**
-Authentication: **API user**
-Authorization: **users**
 
 No request parameters (except visit_id in URL).
 
@@ -669,9 +654,6 @@ Success response:
 ```
 
 #### **POST visits/[visit_id]/equipment**
-Controller and action style:  **new method**
-Authentication: **API user**
-Authorization: **users**
 
 Request Parameter | Mandatory | Default value | Comments
 --- |:---:| --- | ---
