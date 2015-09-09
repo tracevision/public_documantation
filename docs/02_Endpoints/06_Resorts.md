@@ -194,10 +194,7 @@ Success response:
 ```
 Notice: start_time in session sheets section is local time of visit and creation_time in videos section is in the resort's timezone.
 
-#### GET resorts/[resort_name]/weather/forecast
-Controller and action style: **{android,iphone}/get_resort_weather_forecast**
-Authentication: **API user**
-Authorization: **users**
+#### **GET resorts/[resort_name]/weather/forecast**
 
 Request Parameter | Mandatory | Default value | Comments
 --- |:---:| --- | ---
@@ -364,10 +361,7 @@ Success Surf response:
 }
 ```
 
-#### GET resorts/[resort_name]/weather/report
-Controller and action style: **{android,iphone}/get_resort_weather_report**
-Authentication: **API user**
-Authorization: **users**
+#### **GET resorts/[resort_name]/weather/report**
 
 Request Parameter | Mandatory | Default value | Comments
 --- |:---:| --- | ---
