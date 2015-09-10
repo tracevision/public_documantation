@@ -96,7 +96,8 @@ Properties for new visit:
                "avg_slope":0.19186970055397,
                "sustained_speed":14.935487939803,
                "lunch_time":0
-            }
+            },
+            "equipment":["Head Adapt Edge 100 Mens Ski Boots","Giro G10 Ski Helmet"]
          }
 ```
 
