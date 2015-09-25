@@ -666,3 +666,56 @@ Success response:
    "data":[]
 }
 ```
+
+#### POST visits/[visit_id]/stats/compare
+
+Request Parameter | Mandatory | Default value | Comments
+--- |:---:| --- | ---
+stats| | | json array of stat type strings
+
+Success response:
+```javascript
+{
+   "success":true,
+   "data":
+   {
+      "jumps":
+      {
+         "users":[
+            {
+               "user_name":"John Smith",
+               "user_id":259957,
+               "pic_url":"https://...",
+               "value":0,
+               "source":"user"
+            }
+         ]
+      },
+      "total_distance":
+      {
+         "users":[
+            {
+               "user_name":"John Smith",
+               "user_id":259957,
+               "pic_url":"https://...",
+               "value":0,
+               "source":"user"
+            }
+         ]
+      }
+   }
+}
+```
+
+#### POST visits/[visit_id]/stats/progression
+
+Request Parameter | Mandatory | Default value | Comments
+--- |:---:| --- | ---
+stats| ✓ | | json array of stat type strings
+time_scale| | | "day", "month", or "year" (optional, defaults to "day")
+start_date| | | "YYYY-MM-DD" date minimum time stamp for any stat values in response (optional, defaults to 30 days ago)
+end_date| | | "YYYY-MM-DD" date maximum time stamp for any stat values in response (optional defaults to now)
+
+Success response:
+The same form as for users/self/stats/progression
+

@@ -222,3 +222,120 @@ Success response:
    }
 }
 ```
+
+#### POST users/self/stats/compare
+
+Request Parameter | Mandatory | Default value | Comments
+--- |:---:| --- | ---
+stats| ✓ | | json array of stat type strings
+
+Success response:
+```javascript
+{
+   "success":true,
+   "data":
+   {
+      "stats":[
+         {
+            "stat_type":"jumps",
+            "users":[
+               {
+                  "user_name":"Test51c38a857d Testself890649b380",
+                  "user_id":260377,
+                  "pic_url":"https://...",
+                  "value":106925
+               },
+               {
+                  "user_name":"John Smith",
+                  "user_id":259957,
+                  "pic_url":"https://...",
+                  "value":82
+               }
+            ]
+         },
+         {
+            "stat_type":"total_distance",
+            "users":[...]
+         }
+      ]
+   }
+}
+```
+
+#### POST users/[user_id]/stats/compare
+
+Request Parameter | Mandatory | Default value | Comments
+--- |:---:| --- | ---
+stats| ✓ | | json array of stat type strings
+
+Success response:
+The same form as for users/self/stats/compare
+
+#### POST users/self/stats/progression
+
+Request Parameter | Mandatory | Default value | Comments
+--- |:---:| --- | ---
+stats| ✓ | | json array of stat type strings
+time_scale| | | "day", "month", or "year" (optional, defaults to "day")
+start_date| | | "YYYY-MM-DD" date minimum time stamp for any stat values in response (optional, defaults to 30 days ago)
+end_date| | | "YYYY-MM-DD" date maximum time stamp for any stat values in response (optional defaults to now)
+
+
+Success response:
+```javascript
+{
+   "success":true,
+   "data":[
+      {
+         "stat_type":"jumps",
+         "average":11.135593220339,
+         "personalRecord":
+         {
+            "value":63,
+            "visit_id":470385
+         },
+         "base":655,
+         "values":[
+            {
+               "date":"2015-08-27T00:00:00+00:00",
+               "value":2
+            }
+         ]
+      },
+      {
+         "stat_type":"total_distance",
+         "average":15886.528677267,
+         "personalRecord":
+         {
+            "value":74996.918263752,
+            "visit_id":470390
+         },
+         "base":922563.05826918,
+         "values":[
+            {
+               "date":"2015-08-27T00:00:00+00:00",
+               "value":1523.9569520155
+            },
+            {
+               "date":"2015-08-28T00:00:00+00:00",
+               "value":12769.563560985
+            }
+         ]
+      }
+   ]
+}
+```
+
+#### POST users/[user_id]/stats/progression
+
+Request Parameter | Mandatory | Default value | Comments
+--- |:---:| --- | ---
+stats| ✓ | | json array of stat type strings
+time_scale| | | "day", "month", or "year" (optional, defaults to "day")
+start_date| | | "YYYY-MM-DD" date minimum time stamp for any stat values in response (optional, defaults to 30 days ago)
+end_date| | | "YYYY-MM-DD" date maximum time stamp for any stat values in response (optional defaults to now)
+
+Success response:
+The same form as for /users/self/stats/progression
+
+
