@@ -292,7 +292,8 @@ Success response:
          "personalRecord":
          {
             "value":63,
-            "visit_id":470385
+            "visit_id":470385,
+            "date":"2015-06-21T00:00:00+00:00"
          },
          "base":655,
          "values":[
@@ -308,7 +309,8 @@ Success response:
          "personalRecord":
          {
             "value":74996.918263752,
-            "visit_id":470390
+            "visit_id":470390,
+            "date":"2015-06-21T00:00:00+00:00"
          },
          "base":922563.05826918,
          "values":[
