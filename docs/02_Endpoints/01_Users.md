@@ -32,6 +32,7 @@ Success response:
       "sport":"skier",
       "home_resort_id":2423,
       "premium":true,
+      "has_trace":true,      
       "groups":[
          {
             "group_id":34,
@@ -159,6 +160,7 @@ Success response:
       "sport":"skier",
       "home_resort_id":2423,
       "premium":true,
+      "has_trace":true,      
       "groups":[
          {
             "group_id":34,
