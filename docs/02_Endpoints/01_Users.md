@@ -230,6 +230,7 @@ Success response:
 Request Parameter | Mandatory | Default value | Comments
 --- |:---:| --- | ---
 stats| ✓ | | json array of stat type strings
+sport | | |
 
 Success response:
 ```javascript
