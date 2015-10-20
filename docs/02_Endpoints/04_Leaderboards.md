@@ -66,6 +66,7 @@ stat | ✓ | | |
 resort_id | | |
 season | | |
 week | | |
+sport | | |
 
 Stat types for surf:
 total_distance, jumps, air_time, avg_speed, calories, turns_num, longest_ride
@@ -117,7 +118,7 @@ Request Parameter | Mandatory | Default value | Comments
 stat | ✓ | |
 date | ✓ | | yyyy-mm-dd
 resort_id | |
-
+sport | | |
 
 Success response:
 ```javascript
