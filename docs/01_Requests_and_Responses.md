@@ -6,8 +6,8 @@ This call should also be signed with OAuth.
 Each sport type supported by the API server has its own domain for API calls. An API version number is also included in
 the address. There are two supported sports and base API URLs:
 
-* Skiing and snowboarding: https://www.alpinereplay.com/api/v1
-* Surfing: https://surf.activereplay.com/api/v1
+* Skiing and snowboarding: https://www.alpinereplay.com/api/v1 or https://snow.traceup.com/api/v1
+* Surfing: https://surf.activereplay.com/api/v1 or https://surf.traceup.com/api/v1
 
 Further in this documentation you will see a list of API methods that look like this: "GET /users/self". This means
 that you can send an HTTPS GET request to https://www.alpinereplay.com/api/v1/users/self or to
