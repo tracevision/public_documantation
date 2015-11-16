@@ -14,198 +14,332 @@ Success AlpineReplay response:
    "success":true,
    "data":[
       {
-         "visit_id":129593,
+         "visit_id":1455404,
          "single_run_mode":false,
-         "update_time":"2014-07-24 08:17:36",
-         "resort_title":"Sugarloaf",
-         "runs":{
+         "update_time":"2015-11-15 06:00:47",
+         "resort_title":"Lake Louise",
+         "runs":[
             {
-               "run_id":1451367,
-               "start_time":"2014-03-02 17:08:03",
+               "run_id":15287795,
+               "start_time":"2015-11-14 18:28:35",
                "resources":{
                   "jumps":[
                      {
-                        "duration":0.62702536582947,
-                        "offset":1393782999.9713,
-                        "speed":0.14173210109706
+                        "distance":4.6933734661423,
+                        "duration":0.59797406196594,
+                        "height":1.5119494078036,
+                        "offset":1447525787.8578,
+                        "speed":7.86,
+                        "trick":{
+                           "axis1":0,
+                           "axis2":0,
+                           "axis3":0,
+                           "rot_around_long":0,
+                           "rot_of_long":0
+                        }
+                     },
+                     {
+                        "distance":3.9940184565235,
+                        "duration":0.49497866630554,
+                        "height":1.1419289122829,
+                        "offset":1447526803.1611,
+                        "speed":8.56,
+                        "trick":{
+                           "axis1":0,
+                           "axis2":0,
+                           "axis3":0,
+                           "rot_around_long":0,
+                           "rot_of_long":0
+                        }
                      }
                   ],
                   "trails":[
                      {
-                        "key":"upper_narrow_gauge$black#0",
-                        "location":"sugarloaf",
-                        "name":"Upper Narrow Gauge",
-                        "time_end":1393782729,
-                        "time_start":1393782640,
-                        "type":"black"
+                        "key":"home_run$blue#0",
+                        "location":"lake_louise",
+                        "name":"Home Run",
+                        "time_end":1447525841.995,
+                        "time_start":1447525163.999,
+                        "type":"blue"
                      },
                      {
-                        "key":"lower_narrow_gauge$green#0",
-                        "location":"sugarloaf",
-                        "name":"Lower Narrow Gauge",
-                        "time_end":1393782939,
-                        "time_start":1393782869,
-                        "type":"green"
+                        "key":"charlie_s_choice$blue#0",
+                        "location":"lake_louise",
+                        "name":"Charlie's Choice",
+                        "time_end":1447525855.995,
+                        "time_start":1447525841.995,
+                        "type":"blue"
+                     },
+                     {
+                        "key":"gully$blue#0",
+                        "location":"lake_louise",
+                        "name":"Gully",
+                        "time_end":1447526522.999,
+                        "time_start":1447526168.999,
+                        "type":"blue"
                      }
                   ],
                   "lift_line":[
                      {
-                        "lat":45.04465,
-                        "lon":-70.31224,
-                        "alt":731.75048828125
+                        "lat":51.4530698,
+                        "lon":-116.141247,
+                        "alt":2131.5107421875
                      },
                      {
-                        "lat":45.03491,
-                        "lon":-70.31679,
-                        "alt":1165.6518554688
+                        "lat":51.4623423,
+                        "lon":-116.1352671,
+                        "alt":2448.9736328125
                      }
                   ],
-                  "lift_name":"Skyline",
-                  "lo_res_track_id":"89e7effd25ea3dd0",
-                  "hi_res_track_id":"993c67f2f7f03b01"
+                  "lift_name":"Top of the World Express",
+                  "lo_res_track_id":"615a92f684591e75",
+                  "hi_res_track_id":"690a2031411bd31a"
                },
-               "total_distance":2412.25,
-               "max_speed":21.5,
-               "avg_speed":13.195355191257,
-               "calories":31.962116868798,
-               "jumps":1,
-               "air_time":0.62702536582947,
-               "calories_per_lb":0.00058646085997795,
-               "slope_time":182,
-               "lift_time":525,
-               "rest_time":170,
-               "vertical_drop":625,
-               "max_slope":0.5114716783443,
-               "avg_slope":0.24140107846186,
-               "sustained_speed":18.5,
+               "total_distance":4001.0007059669,
+               "max_speed":14.12,
+               "avg_speed":5.7636141853206,
+               "calories":91.903624849708,
+               "jumps":2,
+               "air_time":1.0929527282715,
+               "calories_per_lb":0.0017019189786983,
+               "slope_time":735.99500012398,
+               "lift_time":1025.0000002384,
+               "rest_time":475.0039999485,
+               "vertical_drop":849.9924137931,
+               "max_slope":0.42261614853455,
+               "avg_slope":0.17017029463648,
+               "sustained_speed":12.73,
                "lunch_time":0
             }
+         ],
+         "date":"2015-11-14",
+         "season":2015,
+         "session_sheet":".../users\/522000\/522521\/visits\/1455404\/session_sheet_1510713.jpg?h=5e76bb52",
+         "track_lo_res":".../users\/522000\/522521\/visits\/1455404\/visit.trk",
+         "track_hi_res":".../users\/522000\/522521\/visits\/1455404\/690a2031411bd31a.trk",
+         "device_type":"phone",
+         "resources":{
+            "equipment":[
+               "Head Adapt Edge 100 Mens Ski Boots",
+               "Giro G10 Ski Helmet"
+            ]
          },
-         "date":"2014-03-02",
-         "season":2013,
-         "session_sheet":"http:\/\/...com\/users\/72000\/72027\/visits\/129593\/session_sheet_129119.jpg?h=9b446842",
-         "track_lo_res":"http:\/\/...com\/users\/72000\/72027\/visits\/129593\/visit.trk",
-         "track_hi_res":"http:\/\/...com\/users\/72000\/72027\/visits\/129593\/993c67f2f7f03b01.trk"
-         "device_type":"trace",
-         "total_distance":28817.274209236,
-         "max_speed":24,
-         "avg_speed":9.1546521597203,
-         "calories":1098.2559027617,
-         "jumps":9,
-         "air_time":4.7254085540771,
-         "calories_per_lb":0.020151484454343,
-         "max_slope":0.84268901530484,
-         "slope_time":3428,
-         "lift_time":9635,
-         "rest_time":3335.4760000706,
-         "vertical_drop":6653.4101745876,
-         "avg_slope":0.20432066521036,
-         "sustained_speed":19.75,
+         "total_distance":4001.0007059669,
+         "max_speed":14.12,
+         "avg_speed":5.7636141853206,
+         "calories":153.50441426301,
+         "jumps":2,
+         "air_time":1.0929527282715,
+         "calories_per_lb":0.0028426743382038,
+         "max_slope":0.42261614853455,
+         "slope_time":735.99500012398,
+         "lift_time":1025.0000002384,
+         "rest_time":979.3639998436,
+         "vertical_drop":849.9924137931,
+         "avg_slope":0.17017029463648,
+         "sustained_speed":12.73,
          "lunch_time":0
-         "resources": {
-             "equipment":["Head Adapt Edge 100 Mens Ski Boots","Giro G10 Ski Helmet"]
-         }
       }
    ]
 }
 ```
 
-Success SurfReplay response:
+Success SurfReplay response for 'surfing' or 'sup_surf' sport subtype:
 ```javascript
 {
    "success":true,
    "data":[
       {
-         "visit_id":710,
+         "visit_id":971,
          "single_run_mode":false,
-         "update_time":"2015-06-18 13:58:05",
-         "resort_title":"Lower Trestles",
+         "update_time":"2015-02-03 15:55:48",
+         "resort_title":"Unknown beach",
          "runs":[
             {
-               "run_id":6728,
-               "start_time":"2015-06-11 15:12:49",
+               "run_id":14717,
+               "start_time":"2015-01-16 22:52:10",
                "resources":{
                   "jumps":[
                      {
-                        "bottom_turn":{
-                           "angle":2.0449782177287,
-                           "duration":0.91000270843506,
-                           "initial_speed":9.8748835109338,
-                           "offset":1434035574.4419,
-                           "roll_angle":0.77971739233362,
-                           "speed_gain":0.99871869878497,
-                           "vertical":66.932779820941
-                        },
-                        "duration":0.38100099563599,
-                        "height":0.31645263391284,
-                        "offset":1434035575.4309
+                        "duration":0.23737764358521,
+                        "height":0.12283895756946,
+                        "offset":1421448732.6146
+                     },
+                     {
+                        "duration":0.17272996902466,
+                        "height":0.065041699994385,
+                        "offset":1421448733.1318
+                     },
+                     {
+                        "duration":0.10808253288269,
+                        "height":0.025466397933257,
+                        "offset":1421448733.4328
                      }
+                  ],
+                  "turns":[
+
                   ],
                   "cutbacks":[
                      {
-                        "angle":4.2269022388381,
-                        "bottom_turn":{
-                           "angle":2.3531268564004,
-                           "duration":1.0000030994415,
-                           "initial_speed":8.3040393283667,
-                           "offset":1434035577.4849,
-                           "roll_angle":1.1135685537327,
-                           "speed_gain":0.72827139422401,
-                           "vertical":50.387893062057
-                        },
-                        "duration":1.4480042457581,
-                        "offset":1434035578.4849,
-                        "pitch_angle":0.88292636603308,
-                        "power":9.1181047180415,
-                        "roll_angle":1.395900988425,
-                        "speed":7.0556366238778
+                        "angle":3.1975215476702,
+                        "duration":0.79698204994202,
+                        "offset":1421448731.0752,
+                        "pitch_angle":1.3019902427897,
+                        "roll_angle":1.4972622387144,
+                        "speed":0
+                     },
+                     {
+                        "angle":2.9496673447171,
+                        "duration":0.57071566581726,
+                        "offset":1421448734.6399,
+                        "pitch_angle":1.1120858958012,
+                        "roll_angle":1.5147551703502,
+                        "speed":0
                      }
                   ],
-                  "lo_res_track_id":"f62821216756647f",
-                  "hi_res_track_id":"17b4d701f0581475",
-                  "paddle_tracks_ids":["2f859cb05ff4b3a8","9ca9212139de6ceb"]
+                  "lo_res_track_id":"6336d6541741eb99",
+                  "hi_res_track_id":"05f49d77d2557f54"
                },
-               "total_distance":92.069442184946,
-               "max_speed":11.026549777696,
-               "avg_speed":6.4487753557003,
-               "calories":8.7360104541531,
-               "jumps":1,
-               "air_time":0.38100099563599,
-               "calories_per_lb":0.00034944041816612,
-               "ride_time":14.277042865753,
-               "paddle_time":147.60544347763,
+               "total_distance":0,
+               "max_speed":0,
+               "avg_speed":0,
+               "calories":0,
+               "jumps":3,
+               "air_time":0.51819014549256,
+               "calories_per_lb":0,
+               "ride_time":4.3828964233398,
+               "paddle_time":0,
                "wait_time":0,
                "waves_missed":0,
-               "paddle_distance":145.0574779941,
-               "turns_num":1,
-               "sharpest_turn":4.2269022388381
+               "paddle_distance":0,
+               "turns_num":2,
+               "sharpest_turn":3.1975215476702
             }
          ],
-         "date":"2015-06-11",
-         "season":2015,
-         "session_sheet":"...com\/stats\/get_stats_image?iId=471787",
-         "track_lo_res":"...com\/users\/71000\/71202\/surf_sessions\/710\/visit.trk",
-         "track_hi_res":"...com\/users\/71000\/71202\/surf_sessions\/710\/17b4d701f0581475.trk",
-         "track_paddle":"...com\/users\/71000\/71202\/surf_sessions\/710\/paddle.trk",
+         "date":"2015-01-16",
+         "season":2014,
+         "session_sheet":".../users\/429000\/429174\/surf_sessions\/971\/session_sheet_1081111.jpg?h=6c41251c",
+         "track_lo_res":".../users\/429000\/429174\/surf_sessions\/971\/visit.trk",
+         "track_hi_res":".../users\/429000\/429174\/surf_sessions\/971\/05f49d77d2557f54.trk",
          "device_type":"trace",
-         "total_distance":92.069442184946,
-         "max_speed":11.026549777696,
-         "avg_speed":6.4487753557003,
-         "calories":8.736010454153,
-         "jumps":1,
-         "air_time":0.38100099563599,
-         "calories_per_lb":0.00034944041816612,
-         "ride_time":14.277042865753,
-         "paddle_time":147.60544347763,
-         "wait_time":69.401000499725,
+         "sport":"surfing",
+         "resources":{
+            "equipment":[
+               "GNARLOO FLOUNDER POUNDER FISH 5'6\"",
+               "QUIKSILVER SYNCRO 3/2MM BZ"
+            ]
+         },
+         "total_distance":0,
+         "max_speed":0,
+         "avg_speed":0,
+         "calories":1.0359803475684,
+         "jumps":3,
+         "air_time":0.51819014549256,
+         "calories_per_lb":"0.000019008813716852",
+         "ride_time":4.3828964233398,
+         "paddle_time":0,
+         "wait_time":0.20000290870667,
          "waves_missed":0,
-         "paddle_distance":145.0574779941,
-         "longest_ride":92.069442184946,
-         "turns_num":1,
-         "sharpest_turn":4.2269022388381
-         "resources": {
-             "equipment":["GNARLOO FLOUNDER POUNDER FISH 5'6\"","QUIKSILVER SYNCRO 3/2MM BZ"]
-         }
+         "paddle_distance":0,
+         "longest_ride":0,
+         "turns_num":2,
+         "sharpest_turn":3.1975215476702
+      }
+   ]
+}
+```
+
+Success SurfReplay response for 'windkite', 'wind' and 'kite' sport subtype (12 waves is cut to shorten example:
+
+```javascript
+{
+   "success":true,
+   "data":[
+      {
+         "visit_id":7256,
+         "single_run_mode":false,
+         "update_time":"2015-11-14 15:04:48",
+         "resort_title":"Kijkduin",
+         "runs":[
+            {
+               "run_id":235563,
+               "start_time":"2015-11-10 15:45:25",
+               "resources":{
+                  "jumps":[
+                     {
+                        "distance":0,
+                        "duration":1.3040120601654,
+                        "height":0,
+                        "offset":1447170378.6222,
+                        "speed":8.0176368089357,
+                        "trick":{
+                           "axis1":0.71281006205366,
+                           "axis2":0.18001321046891,
+                           "axis3":0.67786212424927,
+                           "rot_around_long":4.2752394938352,
+                           "rot_of_long":6.8749633674519
+                        }
+                     }
+                  ],
+                  "cutbacks":[
+
+                  ],
+                  "turns":[
+                     {
+                        "duration":0.19999980926514,
+                        "offset":1447170387.4,
+                        "speed":2.5538362231201,
+                        "time_upsidedown":0,
+                        "turn_upsidedown":false
+                     }
+                  ],
+                  "lo_res_track_id":"46f2e8b497ea6fad",
+                  "hi_res_track_id":"bb80b5fcb951017d"
+               },
+               "total_distance":351.30687837396,
+               "max_speed":10.215674231298,
+               "avg_speed":6.1506674600359,
+               "calories":8416.590646966,
+               "jumps":1,
+               "air_time":1.3040120601654,
+               "calories_per_lb":0.12948600995332,
+               "ride_time":62.200000047684,
+               "paddle_time":0,
+               "wait_time":0,
+               "waves_missed":0,
+               "paddle_distance":0,
+               "turns_num":0,
+               "sharpest_turn":0
+            }
+         ],
+         "date":"2015-11-10",
+         "season":2015,
+         "session_sheet":".../users\/397000\/397760\/surf_sessions\/7256\/session_sheet_1509266.jpg?h=f4e8af4c",
+         "track_lo_res":".../users\/397000\/397760\/surf_sessions\/7256\/visit.trk",
+         "track_hi_res":".../users\/397000\/397760\/surf_sessions\/7256\/4e6a209eb430c83f.trk",
+         "device_type":"trace",
+         "sport":"windkite",
+         "resources":{
+            "equipment":[
+               "GNARLOO FLOUNDER POUNDER FISH 5'6\"",
+               "QUIKSILVER SYNCRO 3/2MM BZ"
+            ]
+         },
+         "total_distance":2625.1763708054,
+         "max_speed":11.092384775151,
+         "avg_speed":5.6100173655587,
+         "calories":68539.638970828,
+         "jumps":5,
+         "air_time":8.0380740165711,
+         "calories_per_lb":1.0544559841666,
+         "ride_time":463.99999976158,
+         "paddle_time":0,
+         "wait_time":0,
+         "waves_missed":0,
+         "paddle_distance":0,
+         "longest_ride":366.74450006541,
+         "turns_num":0,
+         "sharpest_turn":0
       }
    ]
 }
@@ -220,208 +354,7 @@ max_timestamp | | | Maximum UTC timestamp of visits update time
 limit | | 50 |
 visit_ids | | | json array of visit ids
 
-Success AlpineReplay response:
-```javascript
-{
-   "success":true,
-   "data":[
-      {
-         "visit_id":129593,
-         "single_run_mode":false,
-         "update_time":"2014-07-24 08:17:36",
-         "resort_title":"Sugarloaf",
-         "runs":{
-            {
-               "run_id":1451367,
-               "start_time":"2014-03-02 17:08:03",
-               "resources":{
-                  "jumps":[
-                     {
-                        "duration":0.62702536582947,
-                        "offset":1393782999.9713,
-                        "speed":0.14173210109706
-                     }
-                  ],
-                  "trails":[
-                     {
-                        "key":"upper_narrow_gauge$black#0",
-                        "location":"sugarloaf",
-                        "name":"Upper Narrow Gauge",
-                        "time_end":1393782729,
-                        "time_start":1393782640,
-                        "type":"black"
-                     },
-                     {
-                        "key":"lower_narrow_gauge$green#0",
-                        "location":"sugarloaf",
-                        "name":"Lower Narrow Gauge",
-                        "time_end":1393782939,
-                        "time_start":1393782869,
-                        "type":"green"
-                     }
-                  ],
-                  "lift_line":[
-                     {
-                        "lat":45.04465,
-                        "lon":-70.31224,
-                        "alt":731.75048828125
-                     },
-                     {
-                        "lat":45.03491,
-                        "lon":-70.31679,
-                        "alt":1165.6518554688
-                     }
-                  ],
-                  "lift_name":"Skyline",
-                  "lo_res_track_id":"89e7effd25ea3dd0",
-                  "hi_res_track_id":"993c67f2f7f03b01"
-               },
-               "total_distance":2412.25,
-               "max_speed":21.5,
-               "avg_speed":13.195355191257,
-               "calories":31.962116868798,
-               "jumps":1,
-               "air_time":0.62702536582947,
-               "calories_per_lb":0.00058646085997795,
-               "slope_time":182,
-               "lift_time":525,
-               "rest_time":170,
-               "vertical_drop":625,
-               "max_slope":0.5114716783443,
-               "avg_slope":0.24140107846186,
-               "sustained_speed":18.5,
-               "lunch_time":0
-            }
-         },
-         "date":"2014-03-02",
-         "season":2013,
-         "session_sheet":"http:\/\/...com\/users\/72000\/72027\/visits\/129593\/session_sheet_129119.jpg?h=9b446842",
-         "track_lo_res":"http:\/\/...com\/users\/72000\/72027\/visits\/129593\/visit.trk",
-         "track_hi_res":"http:\/\/...com\/users\/72000\/72027\/visits\/129593\/993c67f2f7f03b01.trk"
-         "device_type":"trace",
-         "total_distance":28817.274209236,
-         "max_speed":24,
-         "avg_speed":9.1546521597203,
-         "calories":1098.2559027617,
-         "jumps":9,
-         "air_time":4.7254085540771,
-         "calories_per_lb":0.020151484454343,
-         "max_slope":0.84268901530484,
-         "slope_time":3428,
-         "lift_time":9635,
-         "rest_time":3335.4760000706,
-         "vertical_drop":6653.4101745876,
-         "avg_slope":0.20432066521036,
-         "sustained_speed":19.75,
-         "lunch_time":0
-         "resources": {
-             "equipment":["Head Adapt Edge 100 Mens Ski Boots","Giro G10 Ski Helmet"]
-         }
-      }
-   ]
-}
-```
-
-Success SurfReplay response:
-```javascript
-{
-   "success":true,
-   "data":[
-      {
-         "visit_id":710,
-         "single_run_mode":false,
-         "update_time":"2015-06-18 13:58:05",
-         "resort_title":"Lower Trestles",
-         "runs":[
-            {
-               "run_id":6728,
-               "start_time":"2015-06-11 15:12:49",
-               "resources":{
-                  "jumps":[
-                     {
-                        "bottom_turn":{
-                           "angle":2.0449782177287,
-                           "duration":0.91000270843506,
-                           "initial_speed":9.8748835109338,
-                           "offset":1434035574.4419,
-                           "roll_angle":0.77971739233362,
-                           "speed_gain":0.99871869878497,
-                           "vertical":66.932779820941
-                        },
-                        "duration":0.38100099563599,
-                        "height":0.31645263391284,
-                        "offset":1434035575.4309
-                     }
-                  ],
-                  "cutbacks":[
-                     {
-                        "angle":4.2269022388381,
-                        "bottom_turn":{
-                           "angle":2.3531268564004,
-                           "duration":1.0000030994415,
-                           "initial_speed":8.3040393283667,
-                           "offset":1434035577.4849,
-                           "roll_angle":1.1135685537327,
-                           "speed_gain":0.72827139422401,
-                           "vertical":50.387893062057
-                        },
-                        "duration":1.4480042457581,
-                        "offset":1434035578.4849,
-                        "pitch_angle":0.88292636603308,
-                        "power":9.1181047180415,
-                        "roll_angle":1.395900988425,
-                        "speed":7.0556366238778
-                     }
-                  ],
-                  "lo_res_track_id":"f62821216756647f",
-                  "hi_res_track_id":"17b4d701f0581475",
-                  "paddle_tracks_ids":["2f859cb05ff4b3a8","9ca9212139de6ceb"]
-               },
-               "total_distance":92.069442184946,
-               "max_speed":11.026549777696,
-               "avg_speed":6.4487753557003,
-               "calories":8.7360104541531,
-               "jumps":1,
-               "air_time":0.38100099563599,
-               "calories_per_lb":0.00034944041816612,
-               "ride_time":14.277042865753,
-               "paddle_time":147.60544347763,
-               "wait_time":0,
-               "waves_missed":0,
-               "paddle_distance":145.0574779941,
-               "turns_num":1,
-               "sharpest_turn":4.2269022388381
-            }
-         ],
-         "date":"2015-06-11",
-         "season":2015,
-         "session_sheet":"...com\/stats\/get_stats_image?iId=471787",
-         "track_lo_res":"...com\/users\/71000\/71202\/surf_sessions\/710\/visit.trk",
-         "track_hi_res":"...com\/users\/71000\/71202\/surf_sessions\/710\/17b4d701f0581475.trk",
-         "track_paddle":"...com\/users\/71000\/71202\/surf_sessions\/710\/paddle.trk",
-         "device_type":"trace",
-         "total_distance":92.069442184946,
-         "max_speed":11.026549777696,
-         "avg_speed":6.4487753557003,
-         "calories":8.736010454153,
-         "jumps":1,
-         "air_time":0.38100099563599,
-         "calories_per_lb":0.00034944041816612,
-         "ride_time":14.277042865753,
-         "paddle_time":147.60544347763,
-         "wait_time":69.401000499725,
-         "waves_missed":0,
-         "paddle_distance":145.0574779941,
-         "longest_ride":92.069442184946,
-         "turns_num":1,
-         "sharpest_turn":4.2269022388381
-         "resources": {
-             "equipment":["GNARLOO FLOUNDER POUNDER FISH 5'6\"","QUIKSILVER SYNCRO 3/2MM BZ"]
-         }
-      }
-   ]
-}
-```
+Response format is the same as for **GET users/[user_id]/visits**.
 
 #### **GET users/[user_id]/visits/list**
 
