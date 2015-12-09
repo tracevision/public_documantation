@@ -124,6 +124,7 @@ Success AlpineReplay response:
                "Giro G10 Ski Helmet"
             ]
          },
+         "hide_resort":false,
          "total_distance":4001.0007059669,
          "max_speed":14.12,
          "avg_speed":5.7636141853206,
@@ -229,6 +230,7 @@ Success SurfReplay response for 'surfing' or 'sup_surf' sport subtype:
                "QUIKSILVER SYNCRO 3/2MM BZ"
             ]
          },
+         "hide_resort":false,
          "total_distance":0,
          "max_speed":0,
          "avg_speed":0,
@@ -325,6 +327,7 @@ Success SurfReplay response for 'windkite', 'wind' and 'kite' sport subtype (12 
                "QUIKSILVER SYNCRO 3/2MM BZ"
             ]
          },
+         "hide_resort":false,
          "total_distance":2625.1763708054,
          "max_speed":11.092384775151,
          "avg_speed":5.6100173655587,
