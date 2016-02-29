@@ -60,7 +60,24 @@ Success response:
       "android_notifications":true,
       "iphone_notifications":true,
       "android_version":"2.2.0",
-      "iphone_version":"2.2.1"
+      "iphone_version":"2.2.1",
+      "followers":1,
+      "followed":5,
+      "visit_counts":[
+         {
+            "month":"2014-02",
+            "count":1
+         },
+         {
+            "month":"2013-04",
+            "count":5
+         },
+         {
+            "month":"2013-02",
+            "count":2
+         }
+      ]
+      
    }
 }
 ```
