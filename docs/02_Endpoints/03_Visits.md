@@ -214,7 +214,11 @@ Success SurfReplay response for 'surfing' or 'sup_surf' sport subtype:
                "waves_missed":0,
                "paddle_distance":0,
                "turns_num":2,
-               "sharpest_turn":3.1975215476702
+               "sharpest_turn":3.1975215476702,
+               "distance_stroke":0,
+               "speed_gain_stroke":0,
+               "stroke_rate":0,
+               "strokes_side":0
             }
          ],
          "date":"2015-01-16",
@@ -245,7 +249,11 @@ Success SurfReplay response for 'surfing' or 'sup_surf' sport subtype:
          "paddle_distance":0,
          "longest_ride":0,
          "turns_num":2,
-         "sharpest_turn":3.1975215476702
+         "sharpest_turn":3.1975215476702,
+         "distance_stroke":0,
+         "speed_gain_stroke":0,
+         "stroke_rate":0,
+         "strokes_side":0
       }
    ]
 }
@@ -311,7 +319,11 @@ Success SurfReplay response for 'windkite', 'wind' and 'kite' sport subtype (12 
                "waves_missed":0,
                "paddle_distance":0,
                "turns_num":0,
-               "sharpest_turn":0
+               "sharpest_turn":0,
+               "distance_stroke":0,
+               "speed_gain_stroke":0,
+               "stroke_rate":0,
+               "strokes_side":0
             }
          ],
          "date":"2015-11-10",
@@ -342,7 +354,11 @@ Success SurfReplay response for 'windkite', 'wind' and 'kite' sport subtype (12 
          "paddle_distance":0,
          "longest_ride":366.74450006541,
          "turns_num":0,
-         "sharpest_turn":0
+         "sharpest_turn":0,
+         "distance_stroke":0,
+         "speed_gain_stroke":0,
+         "stroke_rate":0,
+         "strokes_side":0
       }
    ]
 }
