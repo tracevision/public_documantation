@@ -62,6 +62,72 @@ properties with information about error. Also response HTTP code 4xx, 5xx.
 ```
 <br /><br />
 
+
+### Response filter
+Some endpoints may produce a big JSON response which may be difficult to handle especially on mobile. Meanwhile only part of response is needed for application. To reduce amount of data in response and get only required properties a developer can use **filter** parameter. It's GET or POST parameter according to API call. **filter** is a JSON string with following structure:
+```javascript
+{
+    "type":< filter type >,
+    "properties":< filter properties >
+}
+```
+
+**< filter type >** can have values **"show"** or **"hide"**. With **"show"** value properties listed in **< filter properties >** will be saved and all other will be deleted from response. And with **"hide"** value properties listed in **< filter properties >** will be deleted and all other will be saved.
+
+**< filter properties >** is a structure that reflects response structure with two differences: 
+
+1. for array of elements create only one array item,
+1. set properties values to **true** for that properties which is needed to be shown or hidden depending on **< filter type >**.
+
+Let's take "GET users/self" endpoint for example. Let's assume that in response a developers wants: user_id, Dropbox credentials, all resorts data and list of user groups ids. It this case **filter** will have value:
+
+```javascript
+{
+    "type":"show",
+    "properties":{
+        "user_id":true,
+        "credentials":{
+            "dropbox":true
+        },
+        "resorts":true,
+        "groups":[
+            {
+                "group_id":true
+            }
+        ]
+    }
+}
+```
+
+And response will be:
+```javascript
+{
+    "success":true,
+    "data":{
+        "user_id":73799,
+        "resorts":[
+            {
+                "resort_id":3208,
+                "title":"Val d'Isere"
+            }
+        ],
+        "groups":[
+            {
+                "group_id":11
+            }
+        ],
+        "credentials":{
+            "dropbox":{
+                "access_token":"QABs48Iu...",
+                "user_name":"Vadim I.",
+                "dropbox_id":"27370"
+            }
+        }
+    }
+}
+```
+
+
 ### API call example
 
 Here is an example of an API request to the users search method in PHP:
