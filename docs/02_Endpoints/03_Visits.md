@@ -667,6 +667,7 @@ stats| ✓ | | json array of stat type strings
 time_scale| | | "day", "month", or "year" (optional, defaults to "day")
 start_date| | | "YYYY-MM-DD" date minimum time stamp for any stat values in response (optional, defaults to 30 days ago)
 end_date| | | "YYYY-MM-DD" date maximum time stamp for any stat values in response (optional defaults to now)
+sport | | | 
 
 Success response:
 The same form as for users/self/stats/progression
