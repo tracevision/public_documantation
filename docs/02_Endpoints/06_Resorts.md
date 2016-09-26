@@ -308,12 +308,7 @@ Success Surf response:
             "sunrise":1385474377,
             "sunset":1385509389,
             "wind_speed":10,
-            "wind_bearing":90,
-            "wave_height":0.5,
-            "wave_bearing":270,
-            "wave_period":2.8,
-            "tide":0.1,
-            "tide_bearing":180,
+            "wind_bearing":90
         },
         {
             "time":1385405475,
@@ -329,12 +324,7 @@ Success Surf response:
             "sunrise":1385474377,
             "sunset":1385509389,
             "wind_speed":10,
-            "wind_bearing":90,
-            "wave_height":0.5,
-            "wave_bearing":270,
-            "wave_period":2.8,
-            "tide":0.1,
-            "tide_bearing":180,
+            "wind_bearing":90
         },
         {
             "time":1385491875,
@@ -350,12 +340,7 @@ Success Surf response:
             "sunrise":1385474377,
             "sunset":1385509389,
             "wind_speed":10,
-            "wind_bearing":90,
-            "wave_height":0.5,
-            "wave_bearing":270,
-            "wave_period":2.8,
-            "tide":0.1,
-            "tide_bearing":180,
+            "wind_bearing":90
         }
     ]
 }
@@ -475,12 +460,7 @@ Success Surf response:
             "sunrise":1385474377,
             "sunset":1385509389,
             "wind_speed":10,
-            "wind_bearing":90,
-            "wave_height":0.5,
-            "wave_bearing":270,
-            "wave_period":2.8,
-            "tide":0.1,
-            "tide_bearing":180,
+            "wind_bearing":90
         },
         {
             "time":1385405475,
@@ -496,12 +476,7 @@ Success Surf response:
             "sunrise":1385474377,
             "sunset":1385509389,
             "wind_speed":10,
-            "wind_bearing":90,
-            "wave_height":0.5,
-            "wave_bearing":270,
-            "wave_period":2.8,
-            "tide":0.1,
-            "tide_bearing":180,
+            "wind_bearing":90
         },
         {
             "time":1385491875,
@@ -517,12 +492,7 @@ Success Surf response:
             "sunrise":1385474377,
             "sunset":1385509389,
             "wind_speed":10,
-            "wind_bearing":90,
-            "wave_height":0.5,
-            "wave_bearing":270,
-            "wave_period":2.8,
-            "tide":0.1,
-            "tide_bearing":180,
+            "wind_bearing":90
         }
     ]
 }
