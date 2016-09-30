@@ -8,7 +8,7 @@ max_timestamp | | | Maximum UTC timestamp of visits update time
 limit | | 50 |
 visit_ids | | | json array of visit ids
 
-Success AlpineReplay response:
+Success Trace Snow response:
 ```javascript
 {
    "success":true,
@@ -145,7 +145,7 @@ Success AlpineReplay response:
 }
 ```
 
-Success SurfReplay response for 'surfing' or 'sup_surf' sport subtype:
+Success Trace Surf response for 'surfing' or 'sup_surf' sport subtype:
 ```javascript
 {
    "success":true,
@@ -268,7 +268,7 @@ Success SurfReplay response for 'surfing' or 'sup_surf' sport subtype:
 }
 ```
 
-Success SurfReplay response for 'windkite', 'wind' and 'kite' sport subtype (12 waves is cut to shorten example:
+Success Trace Surf response for 'windkite', 'wind' and 'kite' sport subtype (12 waves is cut to shorten example:
 
 ```javascript
 {
