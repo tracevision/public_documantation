@@ -151,105 +151,114 @@ Success SurfReplay response for 'surfing' or 'sup_surf' sport subtype:
    "success":true,
    "data":[
       {
-         "visit_id":971,
+         "visit_id":1306,
          "single_run_mode":false,
-         "update_time":"2015-02-03 15:55:48",
-         "resort_title":"Unknown beach",
+         "update_time":"2016-09-30 12:41:01",
+         "resort_title":"Mission Beach",
          "runs":[
             {
-               "run_id":14717,
-               "start_time":"2015-01-16 22:52:10",
+               "run_id":14859,
+               "start_time":"2016-08-10 17:14:51",
                "resources":{
                   "jumps":[
                      {
-                        "duration":0.23737764358521,
-                        "height":0.12283895756946,
-                        "offset":1421448732.6146
-                     },
+                        "bottom_turn":{
+                           "angle":1.063141039714,
+                           "duration":0.56400585174561,
+                           "initial_speed":5.5531547348587,
+                           "offset":1470849324.2438,
+                           "roll_angle":0.5662238709555,
+                           "speed_gain":0,
+                           "vertical":1.1053572864652
+                        },
+                        "duration":0.4450044631958,
+                        "height":0.43170315953592,
+                        "offset":1470849325.1778
+                     }
+                  ],
+                  "cutbacks":[
                      {
-                        "duration":0.17272996902466,
-                        "height":0.065041699994385,
-                        "offset":1421448733.1318
-                     },
-                     {
-                        "duration":0.10808253288269,
-                        "height":0.025466397933257,
-                        "offset":1421448733.4328
+                        "angle":3.8860248941471,
+                        "bottom_turn":{
+                           "angle":1.063141039714,
+                           "duration":0.56400585174561,
+                           "initial_speed":5.5531547348587,
+                           "offset":1470849324.2438,
+                           "roll_angle":0.5662238709555,
+                           "speed_gain":0,
+                           "vertical":1.1053572864652
+                        },
+                        "duration":1.7160172462463,
+                        "offset":1470849324.8078,
+                        "pitch_angle":1.1237543427608,
+                        "power":8.582133845308,
+                        "relaxed":false,
+                        "roll_angle":1.6302825681822,
+                        "speed":5.578005072276
                      }
                   ],
                   "turns":[
 
                   ],
-                  "cutbacks":[
-                     {
-                        "angle":3.1975215476702,
-                        "duration":0.79698204994202,
-                        "offset":1421448731.0752,
-                        "pitch_angle":1.3019902427897,
-                        "roll_angle":1.4972622387144,
-                        "speed":0
-                     },
-                     {
-                        "angle":2.9496673447171,
-                        "duration":0.57071566581726,
-                        "offset":1421448734.6399,
-                        "pitch_angle":1.1120858958012,
-                        "roll_angle":1.5147551703502,
-                        "speed":0
-                     }
-                  ],
-                  "lo_res_track_id":"6336d6541741eb99",
-                  "hi_res_track_id":"05f49d77d2557f54"
+                  "lo_res_track_id":"36d68ca4efd02c80",
+                  "hi_res_track_id":"95d0780c6ff5599b",
+                  "paddle_tracks_ids":[
+                     "6336d6541741eb99",
+                     "17d2129ec32247b4",
+                     "aa77b48f1b25014e"
+                  ]
                },
-               "total_distance":0,
-               "max_speed":0,
-               "avg_speed":0,
-               "calories":0,
-               "jumps":3,
-               "air_time":0.51819014549256,
-               "calories_per_lb":0,
-               "ride_time":4.3828964233398,
-               "paddle_time":0,
+               "total_distance":274.29820677809,
+               "max_speed":6.2411841466674,
+               "avg_speed":4.4851795013269,
+               "sustained_speed":0,
+               "calories":12.56680380362,
+               "jumps":1,
+               "air_time":0.4450044631958,
+               "calories_per_lb":0.00023058355602972,
+               "ride_time":61.156572818756,
+               "paddle_time":23.457236766815,
                "wait_time":0,
                "waves_missed":0,
-               "paddle_distance":0,
-               "turns_num":2,
-               "sharpest_turn":3.1975215476702,
+               "paddle_distance":15.030122374055,
+               "turns_num":1,
+               "sharpest_turn":3.8860248941471,
                "distance_stroke":0,
                "speed_gain_stroke":0,
                "stroke_rate":0,
                "strokes_side":0
             }
          ],
-         "date":"2015-01-16",
-         "season":2014,
-         "session_sheet":".../users\/429000\/429174\/surf_sessions\/971\/session_sheet_1081111.jpg?h=6c41251c",
-         "track_lo_res":".../users\/429000\/429174\/surf_sessions\/971\/visit.trk",
-         "track_hi_res":".../users\/429000\/429174\/surf_sessions\/971\/05f49d77d2557f54.trk",
+         "date":"2016-08-10",
+         "season":2016,
+         "session_sheet":"http:\/\/...\/stats\/get_stats_image?iId=473226",
+         "track_lo_res":"http:\/\/...\/users\/0000\/300\/surf_sessions\/1306\/visit.trk",
+         "track_hi_res":"http:\/\/...\/users\/0000\/300\/surf_sessions\/1306\/95d0780c6ff5599b.trk",
+         "track_paddle":"http:\/\/...\/users\/0000\/300\/surf_sessions\/1306\/paddle.trk",
          "device_type":"trace",
          "sport":"surfing",
          "resources":{
             "equipment":[
-               "GNARLOO FLOUNDER POUNDER FISH 5'6\"",
-               "QUIKSILVER SYNCRO 3/2MM BZ"
+
             ]
          },
          "hide_resort":false,
-         "total_distance":0,
-         "max_speed":0,
-         "avg_speed":0,
-         "calories":1.0359803475684,
-         "jumps":3,
-         "air_time":0.51819014549256,
-         "calories_per_lb":"0.000019008813716852",
-         "ride_time":4.3828964233398,
-         "paddle_time":0,
-         "wait_time":0.20000290870667,
+         "total_distance":274.29820677809,
+         "max_speed":6.2411841466674,
+         "avg_speed":4.4851795013269,
+         "sustained_speed":0,
+         "calories":12.56680380362,
+         "jumps":1,
+         "air_time":0.4450044631958,
+         "calories_per_lb":0.00023058355602972,
+         "ride_time":61.156572818756,
+         "paddle_time":23.457236766815,
+         "wait_time":15.400000095367,
          "waves_missed":0,
-         "paddle_distance":0,
-         "longest_ride":0,
-         "turns_num":2,
-         "sharpest_turn":3.1975215476702,
+         "paddle_distance":15.030122374055,
+         "longest_ride":274.29820677809,
+         "turns_num":1,
+         "sharpest_turn":3.8860248941471,
          "distance_stroke":0,
          "speed_gain_stroke":0,
          "stroke_rate":0,
@@ -266,28 +275,46 @@ Success SurfReplay response for 'windkite', 'wind' and 'kite' sport subtype (12 
    "success":true,
    "data":[
       {
-         "visit_id":7256,
+         "visit_id":1308,
          "single_run_mode":false,
-         "update_time":"2015-11-14 15:04:48",
-         "resort_title":"Kijkduin",
+         "update_time":"2016-09-30 12:49:03",
+         "resort_title":"Figure Eight and Shell Islands",
          "runs":[
             {
-               "run_id":235563,
-               "start_time":"2015-11-10 15:45:25",
+               "run_id":14868,
+               "start_time":"2016-09-11 21:21:28",
                "resources":{
                   "jumps":[
                      {
-                        "distance":0,
-                        "duration":1.3040120601654,
-                        "height":0,
-                        "offset":1447170378.6222,
-                        "speed":8.0176368089357,
+                        "distance":11.917648278056,
+                        "duration":2.0500130653381,
+                        "gforce":0.52660864281948,
+                        "height":1.3856917561109,
+                        "offset":1473629143.5796,
+                        "speed":6.0952768599958,
                         "trick":{
-                           "axis1":0.71281006205366,
-                           "axis2":0.18001321046891,
-                           "axis3":0.67786212424927,
-                           "rot_around_long":4.2752394938352,
-                           "rot_of_long":6.8749633674519
+                           "axis1":-0.12687104266097,
+                           "axis2":-0.6951409494157,
+                           "axis3":-0.70758942825593,
+                           "rot_around_long":-0.59072666166167,
+                           "rot_of_long":1.6008627487356,
+                           "type":"no_trick"
+                        }
+                     },
+                     {
+                        "distance":7.521914399517,
+                        "duration":1.0540065765381,
+                        "gforce":1.65177683067,
+                        "height":0.40207357458691,
+                        "offset":1473629395.1092,
+                        "speed":7.7214765427346,
+                        "trick":{
+                           "axis1":0.094959658036419,
+                           "axis2":-0.53799943634845,
+                           "axis3":-0.83757941106164,
+                           "rot_around_long":-0.53709817089488,
+                           "rot_of_long":0.74015373083628,
+                           "type":"no_trick"
                         }
                      }
                   ],
@@ -295,25 +322,20 @@ Success SurfReplay response for 'windkite', 'wind' and 'kite' sport subtype (12 
 
                   ],
                   "turns":[
-                     {
-                        "duration":0.19999980926514,
-                        "offset":1447170387.4,
-                        "speed":2.5538362231201,
-                        "time_upsidedown":0,
-                        "turn_upsidedown":false
-                     }
+
                   ],
-                  "lo_res_track_id":"46f2e8b497ea6fad",
-                  "hi_res_track_id":"bb80b5fcb951017d"
+                  "lo_res_track_id":"e5d110df7c2e8941",
+                  "hi_res_track_id":"d71fa39417166d4f"
                },
-               "total_distance":351.30687837396,
-               "max_speed":10.215674231298,
-               "avg_speed":6.1506674600359,
-               "calories":8416.590646966,
-               "jumps":1,
-               "air_time":1.3040120601654,
-               "calories_per_lb":0.12948600995332,
-               "ride_time":62.200000047684,
+               "total_distance":5127.2168550269,
+               "max_speed":9.6862841172454,
+               "avg_speed":5.9358993427024,
+               "sustained_speed":6.8935114419286,
+               "calories":88.631080766341,
+               "jumps":2,
+               "air_time":3.1040196418762,
+               "calories_per_lb":0.0016262583626852,
+               "ride_time":863.59999990463,
                "paddle_time":0,
                "wait_time":0,
                "waves_missed":0,
@@ -326,33 +348,33 @@ Success SurfReplay response for 'windkite', 'wind' and 'kite' sport subtype (12 
                "strokes_side":0
             }
          ],
-         "date":"2015-11-10",
-         "season":2015,
-         "session_sheet":".../users\/397000\/397760\/surf_sessions\/7256\/session_sheet_1509266.jpg?h=f4e8af4c",
-         "track_lo_res":".../users\/397000\/397760\/surf_sessions\/7256\/visit.trk",
-         "track_hi_res":".../users\/397000\/397760\/surf_sessions\/7256\/4e6a209eb430c83f.trk",
+         "date":"2016-09-11",
+         "season":2016,
+         "session_sheet":"http:\/\/...\/stats\/get_stats_image?iId=473228",
+         "track_lo_res":"http:\/\/...\/users\/0000\/302\/surf_sessions\/1308\/visit.trk",
+         "track_hi_res":"http:\/\/...\/users\/0000\/302\/surf_sessions\/1308\/d71fa39417166d4f.trk",
          "device_type":"trace",
-         "sport":"windkite",
+         "sport":"kite",
          "resources":{
             "equipment":[
-               "GNARLOO FLOUNDER POUNDER FISH 5'6\"",
-               "QUIKSILVER SYNCRO 3/2MM BZ"
+
             ]
          },
          "hide_resort":false,
-         "total_distance":2625.1763708054,
-         "max_speed":11.092384775151,
-         "avg_speed":5.6100173655587,
-         "calories":68539.638970828,
-         "jumps":5,
-         "air_time":8.0380740165711,
-         "calories_per_lb":1.0544559841666,
-         "ride_time":463.99999976158,
+         "total_distance":5127.2168550269,
+         "max_speed":9.6862841172454,
+         "avg_speed":5.9358993427024,
+         "sustained_speed":6.8935114419286,
+         "calories":88.631080766341,
+         "jumps":2,
+         "air_time":3.1040196418762,
+         "calories_per_lb":0.0016262583626852,
+         "ride_time":863.59999990463,
          "paddle_time":0,
          "wait_time":0,
          "waves_missed":0,
          "paddle_distance":0,
-         "longest_ride":366.74450006541,
+         "longest_ride":5127.2168550269,
          "turns_num":0,
          "sharpest_turn":0,
          "distance_stroke":0,
